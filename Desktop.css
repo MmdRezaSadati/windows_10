@@ -113,6 +113,7 @@ p{
     width: 217px;
     visibility: hidden;
     opacity: .5;
+    display: none;
     height: auto;
     background-color: #f3f3f3;
     position: absolute;

@@ -25,6 +25,7 @@
     background-color: #535353;
     height: 100%;
     color: #ddd;
+    z-index: 1000;
     font-family: system-ui;
 }
 .top-photoshop{

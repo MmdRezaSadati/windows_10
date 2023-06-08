@@ -4,8 +4,8 @@
     bottom: 50px;
     left: 0;
     height: 0;
+    display: none;
     transition: .15s;
-    display: flex;
     justify-content: center;
     overflow: hidden;
     opacity: 0;
@@ -27,6 +27,7 @@
 }
 #showStartMenu:checked ~ .start-menu{
     opacity: 1;
+    display: flex;
     width: 200px;
 }
 

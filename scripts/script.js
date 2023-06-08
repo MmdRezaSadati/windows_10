@@ -13,6 +13,7 @@ function closeMenu(i){
     if(rightClickMenu.style.visibility = "visibile"){
         rightClickMenu.style.visibility = "hidden";
         rightClickMenu.style.opacity = 0;
+        rightClickMenu.style.display = "none";
     }
 }
 function showContent(i){
@@ -97,6 +98,7 @@ document.addEventListener("click",()=>{closeMenu(1)});
 function showRigtClickMenu(position){
     RightClickMenu1.style.visibility = "visible";
     RightClickMenu1.style.opacity = 1;
+    RightClickMenu1.style.display = "block";
     RightClickMenu1.style.left = position.pageX+"px";
     RightClickMenu1.style.top = position.pageY+"px";
     console.log(position.pageX);
