@@ -1,0 +1,1580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>windows 10 - MmdrezaSadati</title>
+    <link rel="stylesheet" href="Desktop.css">
+    <link rel="stylesheet" href="./styles/folder.css">
+    <link rel="stylesheet" href="./styles/photoShop.css">
+    <link rel="stylesheet" href="./styles/chrome.css">
+    <link rel="stylesheet" href="./styles/Amazon.css">
+    <link rel="stylesheet" href="./styles/displaySetting.css">
+    <link rel="stylesheet" href="./styles/Photos.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/animation.css">
+    <link rel="stylesheet" href="./styles/startMenu.css">
+    <link rel="stylesheet" href="./styles/turnOnPage.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/canReach.css">
+    <link rel="stylesheet" href="./styles/instagram.css">
+    <link rel="stylesheet" href="./styles/desktop-instagram.css">
+</head>
+<body id="body">
+    <div class="item Login-To-Windows" id="item7">
+        <img class="account-login" src="./img/chrome/account.jpg" width="160px" height="160px" >
+        <div class="login-section">
+            <input type="password" placeholder=" Please Type Your Password" id="inputLogin" class="input-login">
+            <button onclick="loginToWindows()">Login</button>
+        </div>
+        <p id="wrong"> Your Wrong = Your Password is diffrent</p>
+        <p> Komaki : 1234</p>
+    </div>
+    <div class="right-click-menu" id="RightClickMenu1">
+                <div class="menu-items">
+                    <div class="menu-right"></div>
+                    <div class="menu-center">
+                        <p>View</p>
+                    </div>
+                    <div class="menu-left">
+                        <i class="fa fa-chevron-right"></i>
+                    </div>
+                    <div class="right-click-menu">
+                        <div class="menu-items">
+                            <div class="menu-right">
+                                <input type="radio" name="View" id="View1">
+                            </div>
+                            <label for="View1">
+                                <div class="menu-center">
+                                    <p>Larg Icon</p>
+                                </div>
+                                <div class="menu-left">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="menu-items">
+                            <div class="menu-right">
+                                <input type="radio" name="View" id="View2">
+                            </div>
+                            <label for="View2">
+                                <div class="menu-center">
+                                    <p>Medium Icon</p>
+                                </div>
+                                <div class="menu-left">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="menu-items">
+                            <div class="menu-right">
+                                <input type="radio" name="View" id="View3">
+                            </div>
+                            <label for="View3">
+                                <div class="menu-center">
+                                    <p>Small Icon</p>
+                                </div>
+                                <div class="menu-left">
+                                </div>
+                            </label>
+                        </div>
+
+                        <hr style="width: 90%; margin: 5px auto;">
+                        
+                        <div class="menu-items">
+                            <div class="menu-right"></div>
+                            <div class="menu-center">
+                                <p>Auto Arrange Icons</p>
+                            </div>
+                            <div class="menu-left">
+                            </div>
+                        </div>
+                        <div class="menu-items">
+                            <div class="menu-right"></div>
+                            <div class="menu-center">
+                                <p>Align Icons to Grid</p>
+                            </div>
+                            <div class="menu-left">
+                            </div>
+                        </div>
+                        <hr style="width: 90%; margin: 5px auto;">
+                        
+                        <div class="menu-items">
+                            <div class="menu-right"></div>
+                            <div class="menu-center">
+                                <p>Show Desktop Icons</p>
+                            </div>
+                            <div class="menu-left">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-right"></div>
+                    <div class="menu-center">
+                        <p>Sort by</p>
+                    </div>
+                    <div class="menu-left">
+                        <i class="fa fa-chevron-right"></i>
+                    </div><div class="right-click-menu">
+                        <div class="menu-items">
+                            <div class="menu-right">
+                                <input type="radio" name="Sort-by" id="Sort-by1">
+                            </div>
+                            <label for="Sort-by1">
+                                <div class="menu-center">
+                                    <p>Name</p>
+                                </div>
+                                <div class="menu-left">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="menu-items">
+                            <div class="menu-right">
+                                <input type="radio" name="Sort-by" id="Sort-by2">
+                            </div>
+                            <label for="Sort-by2">
+                                <div class="menu-center">
+                                    <p>Size</p>
+                                </div>
+                                <div class="menu-left">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="menu-items">
+                            <div class="menu-right">
+                                <input type="radio" name="Sort-by" id="Sort-by3">
+                            </div>
+                            <label for="Sort-by3">
+                                <div class="menu-center">
+                                    <p>Item Type</p>
+                                </div>
+                                <div class="menu-left">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="menu-items">
+                            <div class="menu-right">
+                                <input type="radio" name="Sort-by" id="Sort-by4">
+                            </div>
+                            <label for="Sort-by4">
+                                <div class="menu-center">
+                                    <p>Date Modified</p>
+                                </div>
+                                <div class="menu-left">
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-items"onclick="refresh()">
+                    <div class="menu-right"></div>
+                    <div class="menu-center">
+                        <p >Refresh</p>
+                    </div>
+                    <div class="menu-left">
+                    </div>
+                </div>
+                <hr style="width: 90%; margin: 5px auto;">
+                <div class="menu-items dont-active-menu">
+                    <div class="menu-right"></div>
+                    <div class="menu-center">
+                        <p>Paste</p>
+                    </div>
+                    <div class="menu-left">
+                    </div>
+                </div>
+                <div class="menu-items dont-active-menu">
+                    <div class="menu-right"></div>
+                    <div class="menu-center">
+                        <p>Paste ShortCut</p>
+                    </div>
+                    <div class="menu-left">
+                    </div>
+                </div>
+                <div class="menu-items dont-active-menu">
+                    <div class="menu-right"></div>
+                    <div class="menu-center">
+                        <p>Undo</p>
+                    </div>
+                    <div class="menu-left">
+                        CTRL + Z
+                    </div>
+            </div>
+            <hr style="width: 90%; margin: 5px auto;">
+            <div class="menu-items" style="position: relative;">
+                <div class="menu-right"></div>
+                <div class="menu-center">
+                    <p>New</p>
+                </div>
+                <div class="menu-left">
+                    <i class="fa fa-chevron-right"></i>
+                </div>
+                <div class="right-click-menu" style="left: 220px;">
+                    <div class="menu-items" id="AddFolder" onclick="AddFolder()">
+                        <div class="menu-right"><img src="./img/windows-icons/Folder.ico" width="22" ></div>
+                            <div class="menu-center">
+                                <p>New Folder</p>
+                            </div>
+                            <div class="menu-left"></div>
+                    </div>
+                </div>
+            </div>
+            <hr style="width: 90%; margin: 5px auto;">
+                    <div class="menu-items" onclick="showContentFlexrow(4)">
+                        <div class="menu-right">
+                            <img src="./img/windows-icons/imageres_110.ico"  width="22px">
+                        </div>
+                        <div class="menu-center" style="position: relative; top: -8px;">
+                            <p>Display Settings</p>
+                        </div>
+                        <div class="menu-left">
+                        </div>
+                    </div>
+            
+            <div class="menu-items">
+                <div class="menu-right">
+                    <img src="./img/windows-icons/windows-icon-theme-12.png"  width="21px">
+                </div>
+                <div class="menu-center" style="position: relative; top: -8px;">
+                    <p>Personalize</p>
+                </div>
+                <div class="menu-left">
+                </div>
+            </div>
+    </div>
+    <div class="windows-10">
+        <div class="content">
+            <div class="column">
+                <div class="windows-items" ondblclick="showContentFlex(1)">
+                    <img src="./img/windows-icons/imageres_109.ico" >
+                    <p>This Pc</p>
+                    <div class="item ThisPc" id="item1">
+                        <div class="topOf-ThisPc">
+                            <div class="top-item_left">
+                                <ul class="thisPc-top-Menu">
+                                    <li class="border-right"><img src="./img/windows-icons/imageres_109.ico" ></li>
+                                    <li class="hover-effect"><img src="./img/windows-icons/Properties.ico" ></li>
+                                    <li class="hover-effect"><img src="./img/windows-icons/Folder.ico" ></li>
+                                    <li class="border-left">This Pc</li>
+                                </ul>
+                            </div>
+
+                            <div class="top-item_right">
+                                <div class="minimize">
+                                    <img src="./img/windows-icons/Minimize.svg" >
+                                </div>
+                                <div class="restoreDown" onclick="miniItem(1)">
+                                    <img src="./img/windows-icons/RestoreDown.svg" >
+                                </div>
+                                <div class="close" onclick="closeItem(1)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32px" height="32px"><path d="M 7.21875 5.78125 L 5.78125 7.21875 L 14.5625 16 L 5.78125 24.78125 L 7.21875 26.21875 L 16 17.4375 L 24.78125 26.21875 L 26.21875 24.78125 L 17.4375 16 L 26.21875 7.21875 L 24.78125 5.78125 L 16 14.5625 Z"/></svg></div>
+                            </div>
+                            <div class="top-center_thisPC">
+                                <div class="top-item_left" style="position: absolute; top: 37px;width: 100%;">
+                                    <ul class="three-item-center">
+                                        <li>File</li>
+                                        <input type="radio" class="checkbox-accardion" name="three-item-center" id="i1">
+                                        <label for="i1"><li>Computer</li></label>
+                                        <input type="radio" class="checkbox-accardion" name="three-item-center" id="i2">
+                                        <label for="i2"><li>View</li></label>
+                                    </ul>
+                                </div>
+                                <input type="checkbox" class="checkbox-accardion" name="accardion" id="show-ThisPc-Setting">
+                                <div class="top-item_right" id="mmdqashang" style="top: 37px;width: 150px;">
+                                    <label class="accardion hover-effect" for="show-ThisPc-Setting">Show Setting</label>
+                                </div>
+                                <div class="item-accardion center-thisPc"> 
+                                    <div class="center-thisPc-item">
+                                        <div class="thisPc-setting">
+                                            <div class="hover-effect">
+                                                <img src="./img/windows-icons/Properties.ico" >
+                                                Properties
+                                            </div>
+                                            <div class="hover-effect">
+                                                <img src="./img/windows-icons/imageres_1023.ico" >
+                                                Open
+                                            </div>
+                                            <div class="hover-effect">
+                                                <img src="./img/windows-icons/Rename.ico" >
+                                                Rename
+                                            </div>
+                                        </div>
+                                        <h4>Location</h4>
+                                    </div>
+                                    <div class="center-thisPc-item">
+                                        <div class="thisPc-setting">
+                                            <div class="hover-effect">
+                                                <img src="./img/windows-icons/Properties.ico" >
+                                                Properties
+                                            </div>
+                                            <div class="hover-effect">
+                                                <img src="./img/windows-icons/imageres_1023.ico" >
+                                                Open
+                                            </div>
+                                            <div class="hover-effect">
+                                                <img src="./img/windows-icons/Rename.ico" >
+                                                Rename
+                                            </div>
+                                        </div>
+                                        <h4>Location</h4>
+                                    </div>
+                                    <div class="center-thisPc-item">
+                                        <div class="thisPc-setting">
+                                            <div class="hover-effect">
+                                                <img src="./img/windows-icons/Properties.ico" >
+                                                Properties
+                                            </div>
+                                            <div class="hover-effect">
+                                                <img src="./img/windows-icons/imageres_1023.ico" >
+                                                Open
+                                            </div>
+                                            <div class="hover-effect">
+                                                <img src="./img/windows-icons/Rename.ico" >
+                                                Rename
+                                            </div>
+                                        </div>
+                                        <h4>Location</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="thisPc-content">
+                            <div class="top-content">
+                                <div class="center-thisPc_left">
+                                    <img class="hover-effect" src="./img/chrome/back.svg" class="" >
+                                    <img class="hover-effect" src="./img/chrome/back.svg" style="rotate: 180deg;" >
+                                    <img class="hover-effect" src="./img/chrome/back.svg" style="rotate: 270deg;width: 10px;" >
+                                    <img class="hover-effect" src="./img/chrome/back.svg" style="rotate: 90deg;" >
+                                </div>
+                                <div class="center-thisPc_center">
+                                    <input value="This Pc" class="search-input-windows">
+                                    <img class="hover-effect" src="./img/chrome/refresh.png" onclick="refresh()" style="width: 24px;" >
+                                </div>
+                                <div class="center-thisPc_right">
+                                    <input placeholder="Search This Pc" class="search-input-windows">
+                                </div>
+                            </div>
+                            <div class="bottom-content">
+                                <div class="left-ThisPc">
+                                    <label class="hover-effect" style="padding: 2px 4px ;" for=""><img src="./img/windows-icons/Quick Access.ico" style="width: 24px;filter: drop-shadow(0 0 3px #00000080);padding: 0 15px;" > <p>Quick Access</p></label>
+                                    <ul class="thisPc-left-menu">
+                                        <input type="checkbox" class="checkbox-accardion" name="accardion" id="show-thisPc-left-menu">
+                                        <label  class="accardion hover-effect"  for="show-thisPc-left-menu"><img src="./img/windows-icons/imageres_109.ico" > <p>This Pc</p></label>
+                                        <div class="item-accardion">
+                                            <li class="hover-effect"><img src="./img/windows-icons/Desktop.ico"> <p>DeskTop</p></li>
+                                            <li class="hover-effect"><img src="./img/windows-icons/Documents.ico"> <p>Documents</p></li>
+                                            <li class="hover-effect"><img src="./img/windows-icons/Download-Folder.ico"><p>Downloads</p></li>
+                                            <li class="hover-effect"><img src="./img/windows-icons/Music.ico"> <p>Music</p></li>
+                                            <li class="hover-effect"><img src="./img/windows-icons/Pictures.ico"> <p>Pictures</p></li>
+                                            <li class="hover-effect"><img src="./img/windows-icons/Videos.ico"> <p>Videos</p></li>
+                                            <li class="hover-effect"><img src="./img/windows-icons/Drive.ico"> <p>Drive (C:)</p></li>
+                                            <li class="hover-effect"><img src="./img/windows-icons/Drive.ico"> <p>Drive (D:)</p></li>
+                                            <li class="hover-effect"><img src="./img/windows-icons/Drive.ico"> <p>Drive (E:)</p></li>
+                                        </div>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="right-ThisPc">
+                                    <div class="folders">
+                                        <input type="checkbox" class="checkbox-accardion" name="accardion" id="show-thisPc-folders">
+                                        <label  class="accardion hover-effect"  for="show-thisPc-folders"> <p>folders</p><span></span></label>
+                                        <div class="item-accardion folders-section">
+                                            <div class="hover-effect folder"> <img src="./img/windows-icons/Desktop-folder.ico" >DeskTop</div>
+                                            <div class="hover-effect folder"> <img src="./img/windows-icons/Documents-folder.ico" >Documents</div>
+                                            <div class="hover-effect folder"> <img src="./img/windows-icons/Download-Folder.ico" >Downloads</div>
+                                            <div class="hover-effect folder"> <img src="./img/windows-icons/Music.ico" >Music</div>
+                                            <div class="hover-effect folder"> <img src="./img/windows-icons/image-folder.ico" >Pictures</div>
+                                            <div class="hover-effect folder"> <img src="./img/windows-icons/Videos.ico" >Videos</div>
+                                        </div>
+                                    </div>
+                                    <div class="Drives">
+                                        <input type="checkbox" class="checkbox-accardion" name="accardion" id="show-thisPc-drives">
+                                        <label  class="accardion hover-effect"  for="show-thisPc-drives"> <p>Devices And Drives</p><span></span></label>
+                                        <div class="item-accardion folders-section">
+                                            <div class="hover-effect folder"> <img src="./img/windows-icons/Drive.ico" > 
+                                                    <div>
+                                                        Drive (C:)
+                                                        <div class="Drives-size"><span></span><p>60%</p></div>
+                                                    </div> 
+                                            </div>
+                                            <div class="hover-effect folder"> <img src="./img/windows-icons/Drive.ico" > 
+                                                <div>
+                                                    Drive (D:)
+                                                    <div class="Drives-size"><span style="width: 90%;background: #ff0000;"></span><p>90%</p></div>
+                                                </div> 
+                                            </div>
+                                            <div class="hover-effect folder"> <img src="./img/windows-icons/Drive.ico" > 
+                                                <div>
+                                                    Drive (E:)
+                                                    <div class="Drives-size"><span style="width: 20%;"></span><p>20%</p></div>
+                                            </div> 
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="windows-items" ondblclick="showContentFlex(2)">
+                    <img src="./img/windows-icons/Photoshop.png" >
+                    <p>Adobe Photoshop</p>
+                    <div class="item photoshop " id="item2">
+                        <div class="top-photoshop">
+                            <div class="photoshop-menu">
+                                <ul class="top-menu-photoShop">
+                                    <li class="default">
+                                        <img src="./img/windows-icons/Photoshop.png" ></li>
+                                    <li>File</li>
+                                    <li>Edit</li>
+                                    <li>Image</li>
+                                    <li>Layer</li>
+                                    <li>Type</li>
+                                    <li>Select</li>
+                                    <li>Filter</li>
+                                    <li>3D</li>
+                                    <li>View</li>
+                                    <li>Window</li>
+                                    <li>Help</li>
+                                </ul>
+                            </div>
+                            <div class="close-section">
+                                <ul>
+                                    <li id="close" onclick="closeItem(2)"><img src="./img/photoshop/Screenshot (72).png" ></li>
+                                    <li id="mini" onclick="miniItem(2)"><img src="./img/photoshop/Screenshot (73).png" ></li>
+                                    <li id="hide"><img src="./img/photoshop/Screenshot (74).png" ></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="center-menu top-photoshop">
+                            <div class="right-centerMenu">
+                                <div class="RCM-items"><img src="./img/photoshop/home.png" ></div>
+                                <div class="RCM-items border-left noHover">
+                                    Font Size : 
+                                    <div class="input-section">
+                                        <input class="input" type="text">
+                                        <svg onclick="showMenu(2) " ondblclick="closeMenu(2)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8H288c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z" style="fill: #d3d3d3;"/></svg>
+                                    
+                                        <div class="right-click-menu RCMenu-photoShop" id="RightClickMenu2">
+                                            <div class="menu-items" onclick="fontSize(16)"><p class="value">16px</p></div><div class="menu-items" onclick="fontSize(18)"><p class="value">18px</p></div><div class="menu-items" onclick="fontSize(24)"><p class="value">24px</p></div><div class="menu-items" onclick="fontSize(28)"><p class="value">28px</p></div><div class="menu-items" onclick="fontSize(32)"><p class="value">32px</p></div><div class="menu-items" onclick="fontSize(36)"><p class="value">36px</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="RCM-items border-left noHover noHover1  border-right">
+                                    Font Family : 
+                                    <div class="input-section input-fFamily">
+                                        <input class="input"  type="text">
+                                        <svg onclick="showMenu(3)" ondblclick="closeMenu(3)"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8H288c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z" style="fill: #d3d3d3;"/></svg>
+                                    
+                                        <div class="right-click-menu RCMenu-photoShop" id="RightClickMenu3">
+                                            <div class="menu-items" onclick="fontFamily('IranSans')"><p class="value">Iransans</p></div><div class="menu-items" onclick="fontFamily('Yekan')"><p class="value">Yekan</p></div><div class="menu-items" onclick="fontFamily('Aban')"><p class="value">Aban</p></div><div class="menu-items" onclick="fontFamily('Kokab')"><p class="value">Kokab</p></div><div class="menu-items" onclick="fontFamily('Mitra')"><p class="value">Mitra</p></div><div class="menu-items" onclick="fontFamily('Mj-flow')"><p class="value">Mj flow</p></div><div class="menu-items" onclick="fontFamily('nasim')"><p class="value">nasim</p></div><div class="menu-items" onclick="fontFamily('Ramsar')"><p class="value">Ramsar</p></div><div class="menu-items" onclick="fontFamily('Roya')"><p class="value">Roya</p></div><div class="menu-items" onclick="fontFamily('Thuluth')"><p class="value">Thuluth</p></div><div class="menu-items" onclick="fontFamily('Traffic')"><p class="value">Traffic</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="RCM-items" onclick="TextAlign('left')">
+                                    <a href="#" class="text-decoration"  title="Left Align Text"><svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-text-left" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" fill="white"></path> </svg></a>
+                                </div>
+                                <div class="RCM-items" onclick="TextAlign('center')">
+                                    <a href="#" class="text-decoration"   title="Center Align Text"><svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-text-center" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M4 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" fill="white"></path> </svg></a>
+                                </div>
+                                <div class="RCM-items" onclick="TextAlign('right')">
+                                    <a href="#" class="text-decoration"  title="Right Align Text"><svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-text-right" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-4-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-4-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" fill="white"></path> </svg></a>
+                                </div>
+                                <div class="RCM-items border-left noHover">
+                                    <input type="color"id="textColor" class="color-input">
+                                    <input class="confirm" type="button" onclick="colorProject()" value="confirm">
+                                </div>
+                            </div>
+                            <div class="left-centerMenu">
+                                <div class="RCM-items"><svg xmlns="http://www.w3.org/2000/svg" style="cursor: pointer;width: 25px; fill:#dddddd" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg></div></div>
+                        </div>
+                        <div class="workSpace-section">
+                            <div class="toolBar-photoshop">
+                                <div class="mini-section">
+                                    
+                                </div>
+                                <div class="toolBar">
+                                    <ul class="toolBar-menu">
+                                        <li onclick="cursorMove()"> <img src="./img/photoshop/SVG/Move.svg" ></li>
+                                        <li onclick="cursorDefault()"> <img src="./img/photoshop/SVG/Selector.svg" style="width: 15px;" ></li>
+                                        <li> <img src="./img/photoshop/SVG/MorabaSelector.svg" ></li>
+                                        <li> <img src="./img/photoshop/SVG/DayereSelector.svg" ></li>
+                                        <li> <img src="./img/photoshop/SVG/Pen.svg" ></li>
+                                        <li onclick="createText()"> <img src="./img/photoshop/SVG/Text.svg" >
+                                            <svg class="tools-item-more"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8H288c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z" style="fill: #d3d3d3;"/></svg>
+                                            <div class="caption-tools">
+                                            <h4>Horizontal Type tool </h4>
+                                            <p>Add horizontal type</p>
+                                        </div>
+                                        </li>
+                                        <li> <img src="./img/photoshop/SVG/Crop.svg" ></li>
+                                        <li onclick="createMostatil()"> <img src="./img/photoshop/SVG/Mostatil.svg" >
+                                            <div class="caption-tools">
+                                            <h4>Rectangle tool </h4>
+                                            <p>Draws rectangle</p>
+                                            </div>
+                                            <svg class="tools-item-more"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8H288c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z" style="fill: #d3d3d3;"/></svg>
+                                        </li>
+                                        <li onclick="createDayere()"> <img src="./img/photoshop/SVG/Dayere.svg" >
+                                            <div class="caption-tools">
+                                            <h4> Rounded Rectangle tool </h4>
+                                            <p>Draws round-edged rectangles</p>
+                                            </div>
+                                            <svg class="tools-item-more"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8H288c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z" style="fill: #d3d3d3;"/></svg>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="workSpace-photoshop" id="workSpace">
+                                <div class="Project1" id="Project1">
+                                    <input type="checkbox" class="checkbox-display-none" id="display-Layer-2">
+                                    <img src="./img/images/background4.jpg" width="500px" class="imageWorkSpace Project2 Project" id="Project2" style="position: absolute;"  >
+                                </div>
+                                <input type="checkbox" name="" id="zoom-check">
+                                <div id="zoom">
+                                    <label for="zoom-check" ><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 4000 2000" style="width:50px" xml:space="preserve"><style type="text/css">.st0{fill:#FFFFFF;}</style><g><g><path class="st0" d="M2225.2,17.6c-417.3,0-756.9,339.6-756.9,756.9c0,187.3,68.8,358.7,181.8,491.1l-615.1,615.1c-23.3,23.3-23.3,61,0,84.2c11.5,11.5,26.9,17.5,42.1,17.5c15.2,0,30.3-5.8,42.1-17.5l615.1-615.1c132.4,113,303.8,181.8,491.1,181.8c417.3,0,756.9-339.6,756.9-756.9S2642.8,17.6,2225.2,17.6z M2225.2,1412.6c-351.9,0-638.1-286.2-638.1-638.1s286.2-637.9,638.1-637.9s638.1,286.2,638.1,638.1S2577.1,1412.6,2225.2,1412.6z"/><path class="st0" d="M2553.6,715.1h-269v-269c0-33-26.7-59.4-59.4-59.4c-32.7,0-59.4,26.7-59.4,59.4v269h-269c-33,0-59.4,26.7-59.4,59.4c0,33,26.7,59.4,59.4,59.4h269v269c0,33,26.7,59.4,59.4,59.4c32.7,0,59.4-26.7,59.4-59.4V834.1h269c33,0,59-26.7,59.4-59.4C2613.2,741.8,2586.5,715.1,2553.6,715.1z"/></g></g></svg></label>
+                                    <input type="range" class="range-input" min="0.1" max="2" step="0.05" oninput="zoom()" id="zoomRange">
+                                </div>
+                            </div>
+                            <div class="tools-Setting-photoshop">
+                                <div class="mini-section"></div>
+                                <div class="layer1">
+                                    <div class="tools-Setting scroolY">
+                                        <div class="items-setting">
+                                            <input type="checkbox" class="checkbox-accardion" name="accardion" id="canvas">
+                                            <label class="accardion" id="canvas-accardion" for="canvas">Canvas</label>
+                                            <div class="item-accardion" >
+                                                <div class="accardion-item canvas">
+                                                    <div class="width-canva">
+                                                        <h5 class="detaile-name">Width :</h5><input id="width" min="25" type="number">
+                                                        <input width="15px"class="confirm" type="button" onclick="widthProject()" value="confirm">
+                                                    </div>
+                                                    <div class="height-canva">
+                                                        <h5 class="detaile-name">Height :</h5><input id="height" min="25" type="number">
+                                                        <input type="button"class="confirm" onclick="heightProject()" value="confirm">
+                                                    </div>
+                                                    <div class="height-canva">
+                                                        <h5 class="detaile-name">Z-Index :</h5><input id="ZIndex" min="0" type="number">
+                                                        <input type="button"class="confirm" onclick="ZIndexProject()" value="confirm">
+                                                    </div>
+                                                    <div class="fill-canva">
+                                                        <h5 class="detaile-name">fill :</h5><input type="color"id="backgroundFill" class="fill-canvas">
+                                                        <input class="confirm" type="button" onclick="fillProject()" value="confirm">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="items-setting">
+                                            <input type="checkbox" class="checkbox-accardion" name="accardion" id="border">
+                                            <label class="accardion" id="border-accardion" for="border">border</label>
+                                            
+                                            <div class="item-accardion ">
+                                                <div class="accardion-item canvas">
+                                                    <div class="Border-canva">
+                                                        <h5 class="detaile-name">BorderTop :</h5><input id="BorderTop" class="Border" min="0" type="number">
+                                                        <input type="button"class="confirm" onclick="BorderTopProject()" value="confirm">
+                                                    </div>
+                                                    <div class="Border-canva">
+                                                        <h5 class="detaile-name">BorderRight :</h5><input id="BorderRight" class="Border" min="0" type="number">
+                                                        <input type="button"class="confirm" onclick="BorderRightProject()" value="confirm">
+                                                    </div>
+                                                    <div class="Border-canva">
+                                                        <h5 class="detaile-name">BorderBottom :</h5><input id="BorderBottom" class="Border" min="0" type="number">
+                                                        <input type="button"class="confirm" onclick="BorderbottomProject()" value="confirm">
+                                                    </div>
+                                                    <div class="Border-canva">
+                                                        <h5 class="detaile-name">BorderLeft :</h5><input id="BorderLeft" class="Border" min="0" type="number">
+                                                        <input type="button"class="confirm" onclick="BorderLeftProject()" value="confirm">
+                                                    </div>
+                                                    <div class="fill-canva">
+                                                        <h5 class="detaile-name">borderColor :</h5><input type="color"id="borderColor" class="fill-canvas">
+                                                        <input class="confirm" type="button" onclick="borderColorProject()" value="confirm">
+                                                    </div>
+                                                    <div class="Border-Radius-canva">
+                                                        <h5 class="detaile-name">BorderRadius :</h5><input id="Border-Radius" min="0" type="number">
+                                                        <input type="button"class="confirm" onclick="borderRadiusProject()" value="confirm">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="items-setting">
+                                            <input type="checkbox" class="checkbox-accardion" name="accardion" id="Filter">
+                                            <label class="accardion" id="canvas-accardion" for="Filter">Filters</label>
+                                            <div class="item-accardion" >
+                                                <div class="accardion-item Filter">
+                                                    <div class="opacity">
+                                                        <span>Opacity :</span> <input type="range" class="range-input" min="0" max="1" step="0.01" id="opacity">
+                                                        <input class="confirm" type="button" onclick=" opacityProject()" value="confirm">
+                                                    </div>
+                                                    <div class="hue-rotate"><span>Hue :</span><input type="range" class="range-input" min="0" max="360" step="1" id="hue">
+                                                        <input class="confirm" type="button" onclick=" hueProject()" value="confirm">
+                                                    </div>
+                                                    <div class="brightness"><span>Brightness :</span><input type="range" class="range-input" min="0" max="5" step="0.02" id="brightness">
+                                                        <input class="confirm" type="button" onclick=" brightnessProject()" value="confirm">
+                                                    </div>
+                                                    <div class="blur"><span>blur :</span><input type="range" class="range-input" min="0" max="50" step="1" id="blur">
+                                                        <input class="confirm" type="button" onclick="blurProject()" value="confirm">
+                                                    </div>
+                                                    <div class="contrast"><span>contrast :</span><input type="range" class="range-input" min="0" max="2" step="0.02" id="contrast">
+                                                        <input class="confirm" type="button" onclick="contrastProject()" value="confirm">
+                                                    </div>
+                                                    <div class="grayscale"><span>grayscale :</span><input type="range" class="range-input" min="0" max="2" step="0.02" id="grayscale">
+                                                        <input class="confirm" type="button" onclick="grayscaleProject()" value="confirm">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="items-setting">
+                                                <button onclick="showContentFlex(6)" class="Import-Image">Import Image</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="layer-section scroolY" id="layerSection">
+                                        <h3>layers</h3>
+                                        <div>
+                                            <label for="Layer-3"></label>
+                                            <input type="radio" class="radio-Layers" name="layers" id="Layer-1">
+                                            <label for="Layer-1">
+                                                <div class="layers" onclick="layerHandler('1')">Project</div>
+                                            </label>
+                                        </div>
+                                        <div class="Layer" id="imageLayer">
+                                            <input type="checkbox" class="turn-on" id="turn-on2">
+                                            <label class="setting-display" for="turn-on2">
+                                                <label for="display-Layer-2"><svg xmlns="http://www.w3.org/2000/svg" style="width:27px" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path d="M128,56C48,56,16,128,16,128s32,72,112,72,112-72,112-72S208,56,128,56Z" fill="none" stroke="#bbb" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><circle cx="128" cy="128" r="40" fill="none" stroke="#bbb" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/></svg></label>
+                                            </label>
+                                            <input type="radio" class="radio-Layers" name="layers" id="Layer-2">
+                                            <label for="Layer-2" class="width100">
+                                                <div class="layers" onclick="layerHandler('2')">Layer 2</div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item ThisPc" id="item6">
+                            <div class="topOf-ThisPc">
+                                <div class="top-item_left">
+                                    <ul class="thisPc-top-Menu">
+                                        <li class="border-right"><img src="./img/windows-icons/imageres_109.ico" ></li>
+                                        <li class="hover-effect"><img src="./img/windows-icons/Properties.ico" ></li>
+                                        <li class="hover-effect"><img src="./img/windows-icons/Folder.ico" ></li>
+                                        <li class="border-left">This Pc</li>
+                                    </ul>
+                                </div>
+    
+                                <div class="top-item_right">
+                                    <div class="close" onclick="closeItem(6)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32px" height="32px"><path d="M 7.21875 5.78125 L 5.78125 7.21875 L 14.5625 16 L 5.78125 24.78125 L 7.21875 26.21875 L 16 17.4375 L 24.78125 26.21875 L 26.21875 24.78125 L 17.4375 16 L 26.21875 7.21875 L 24.78125 5.78125 L 16 14.5625 Z"/></svg></div>
+                                </div>
+                                <div class="top-center_thisPC">
+                                    <div class="top-item_left" style="position: absolute; top: 37px;width: 100%;">
+                                        <ul class="three-item-center">
+                                            <li>File</li>
+                                            <input type="radio" class="checkbox-accardion" name="three-item-center" id="i1">
+                                            <label for="i1"><li>Computer</li></label>
+                                            <input type="radio" class="checkbox-accardion" name="three-item-center" id="i2">
+                                            <label for="i2"><li>View</li></label>
+                                        </ul>
+                                    </div>
+                                    <input type="checkbox" class="checkbox-accardion" name="accardion" id="show-ThisPc-Setting">
+                                    <div class="top-item_right" id="mmdqashang" style="top: 37px;width: 150px;">
+                                        <label class="accardion hover-effect" for="show-ThisPc-Setting">Show Setting</label>
+                                    </div>
+                                    <div class="item-accardion center-thisPc"> 
+                                        <div class="center-thisPc-item">
+                                            <div class="thisPc-setting">
+                                                <div class="hover-effect">
+                                                    <img src="./img/windows-icons/Properties.ico" >
+                                                    Properties
+                                                </div>
+                                                <div class="hover-effect">
+                                                    <img src="./img/windows-icons/folders.ico" >
+                                                    Open
+                                                </div>
+                                                <div class="hover-effect">
+                                                    <img src="./img/windows-icons/Rename.ico" >
+                                                    Rename
+                                                </div>
+                                            </div>
+                                            <h4>Location</h4>
+                                        </div>
+                                        <div class="center-thisPc-item">
+                                            <div class="thisPc-setting">
+                                                <div class="hover-effect">
+                                                    <img src="./img/windows-icons/Properties.ico" >
+                                                    Properties
+                                                </div>
+                                                <div class="hover-effect">
+                                                    <img src="./img/windows-icons/folders.ico" >
+                                                    Open
+                                                </div>
+                                                <div class="hover-effect">
+                                                    <img src="./img/windows-icons/Rename.ico" >
+                                                    Rename
+                                                </div>
+                                            </div>
+                                            <h4>Location</h4>
+                                        </div>
+                                        <div class="center-thisPc-item">
+                                            <div class="thisPc-setting">
+                                                <div class="hover-effect">
+                                                    <img src="./img/windows-icons/Properties.ico" >
+                                                    Properties
+                                                </div>
+                                                <div class="hover-effect">
+                                                    <img src="./img/windows-icons/folders.ico" >
+                                                    Open
+                                                </div>
+                                                <div class="hover-effect">
+                                                    <img src="./img/windows-icons/Rename.ico" >
+                                                    Rename
+                                                </div>
+                                            </div>
+                                            <h4>Location</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="thisPc-content">
+                                <div class="top-content">
+                                    <div class="center-thisPc_left">
+                                        <img class="hover-effect" src="./img/chrome/back.svg" class="" >
+                                        <img class="hover-effect" src="./img/chrome/back.svg" style="rotate: 180deg;" >
+                                        <img class="hover-effect" src="./img/chrome/back.svg" style="rotate: 270deg;width: 10px;" >
+                                        <img class="hover-effect" src="./img/chrome/back.svg" style="rotate: 90deg;" >
+                                    </div>
+                                    <div class="search-input-item6">
+                                        <input value="Desktop" class="search-input-windows">
+                                        <img class="hover-effect" src="./img/chrome/refresh.png" onclick="refresh()" style="width: 24px;" >
+                                    </div>
+                                    <div class="center-thisPc_right">
+                                        <input placeholder="Search This Pc" class="search-input-windows">
+                                    </div>
+                                </div>
+                                <div class="bottom-content">
+                                    <div class="left-ThisPc">
+                                        <label class="hover-effect" style="padding: 2px 4px ;" for=""><img src="./img/windows-icons/Quick Access.ico" style="width: 24px;filter: drop-shadow(0 0 3px #00000080);padding: 0 15px;" > <p>Quick Access</p></label>
+                                        <ul class="thisPc-left-menu">
+                                            <input type="checkbox" class="checkbox-accardion" name="accardion" id="show-thisPc-left-menu1">
+                                            <label  class="accardion hover-effect"  for="show-thisPc-left-menu1"><img src="./img/windows-icons/imageres_109.ico" > <p>This Pc</p></label>
+                                            <div class="item-accardion">
+                                                <li class="hover-effect"><img src="./img/windows-icons/Desktop.ico"> <p>DeskTop</p></li>
+                                                <li class="hover-effect"><img src="./img/windows-icons/Documents.ico"> <p>Documents</p></li>
+                                                <li class="hover-effect"><img src="./img/windows-icons/Download-Folder.ico"><p>Downloads</p></li>
+                                                <li class="hover-effect"><img src="./img/windows-icons/Music.ico"> <p>Music</p></li>
+                                                <li class="hover-effect"><img src="./img/windows-icons/Pictures.ico"> <p>Pictures</p></li>
+                                                <li class="hover-effect"><img src="./img/windows-icons/Videos.ico"> <p>Videos</p></li>
+                                                <li class="hover-effect"><img src="./img/windows-icons/Drive.ico"> <p>Drive (C:)</p></li>
+                                                <li class="hover-effect"><img src="./img/windows-icons/Drive.ico"> <p>Drive (D:)</p></li>
+                                                <li class="hover-effect"><img src="./img/windows-icons/Drive.ico"> <p>Drive (E:)</p></li>
+                                            </div>
+                                            
+                                        </ul>
+                                    </div>
+                                    <div class="right-ThisPc">
+                                        <div class="folders">
+                                            <div class="item-accardion folders-section" style="height: auto;">
+                                                <div class="hover-effect folder" style="align-items: center;"> <img src="./img/windows-icons/imageres_109.ico" >This Pc</div>
+                                                <div class="hover-effect folder" style="align-items: center;"> <img src="./img/windows-icons/Photoshop.png" >Adobe Photoshop</div>
+                                                <div class="hover-effect folder" style="align-items: center;"> <img src="./img/windows-icons/SmallLogo.png" >Google Chrome</div>
+                                                <div class="hover-effect folder" style="align-items: center;" ondblclick="importDone()"> <img src="./img/images/background4.jpg" >Earth.jpg</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="windows-items" ondblclick="showContentFlex(3)">
+                    <img src="./img/windows-icons/SmallLogo.png" >
+                    <p>Google Chrome</p>
+                    
+                    <div class="item chrome" id="item3">
+                        <div class="topChrome">
+                        <div class="top-chrome">
+                                <div class="top-chrome_left">
+                                    <div class="item-top-chrome">
+                                        <div class="item-top-chrome_image"><img src="./img/windows-icons/imageres_6024.ico" ></div>
+                                        <div class="item-top-chrome_nameSite"><p id="TabTitel">New Tab</p></div>
+                                        <div class="colse-tab"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M 7.21875 5.78125 L 5.78125 7.21875 L 14.5625 16 L 5.78125 24.78125 L 7.21875 26.21875 L 16 17.4375 L 24.78125 26.21875 L 26.21875 24.78125 L 17.4375 16 L 26.21875 7.21875 L 24.78125 5.78125 L 16 14.5625 Z"/></svg></div>
+                                    </div>
+                                </div>
+                                <div class="top-item_right">
+                                    <div class="minimize">
+                                        <img src="./img/windows-icons/Minimize.svg" >
+                                    </div>
+                                    <div class="restoreDown" onclick="miniItem(3)">
+                                        <img src="./img/windows-icons/RestoreDown.svg" >
+                                    </div>
+                                    <div class="close" onclick="closeItem(3)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32px" height="32px"><path d="M 7.21875 5.78125 L 5.78125 7.21875 L 14.5625 16 L 5.78125 24.78125 L 7.21875 26.21875 L 16 17.4375 L 24.78125 26.21875 L 26.21875 24.78125 L 17.4375 16 L 26.21875 7.21875 L 24.78125 5.78125 L 16 14.5625 Z"/></svg></div>
+                                </div>
+                            </div>
+                            <div class="center-chrome">
+                                <div class="center-chrome_left">
+                                    <img src="./img/chrome/back.svg" class="" >
+                                    <img src="./img/chrome/back.svg" style="rotate: 180deg;" >
+                                    <img src="./img/chrome/refresh.png" onclick="refresh()" style="width: 30px;" >
+                                </div>
+                                <div class="center-chrome_center">
+                                    <input type="search" placeholder="Search Google or type a URL" id="searchiInputGoogle2" class="search-input-windows">
+                                    <img src="./img/chrome/Search-Icon.svg" onclick="searchChrome2()" >
+                                </div>
+                                <div class="center-chrome_right">
+                                    <div class="extention-icon"><img src="./img/chrome/extension-icon.svg" ></div>
+                                    <div class="google-account"><img src="./img/chrome/account.jpg" style="padding: 3px 4px;border-radius: 50%;" ></div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"style="padding: 3px 4px;border-radius: 50%;" fill="#5F6368"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-chrome">
+                            <div id="firstPagechrome">
+                                <div class="google-logo">
+                                    <img src="./img/chrome/Google-White-Logo.svg" >
+                                </div>
+                                <div class="search-box-google">
+                                    <img src="./img/chrome/Search-Icon.svg" onclick="searchChrome()" >
+                                    <input type="search" placeholder="Search Google or type a URL" id="searchiInputGoogle" class="search-input-windows">
+                                    <img src="./img/chrome/Microphon.svg" >
+                                </div>
+                                <div class="sugest-sites">
+                                    <div class="sugest-items">
+                                        <img src="./img/chrome/Amazon-logo-meaning.jpg" onclick="goToAmazon()" >
+                                        <h4>Amazon</h4>
+                                    </div>
+                                    <div class="sugest-items">
+                                        <img src="./img/chrome/Youtub-Icon.png" >
+                                        <h4>Youtub</h4>
+                                    </div>
+                                    <div class="sugest-items">
+                                        <img src="./img/chrome/Amazon-logo-meaning.jpg"onclick="goToAmazon()" >
+                                        <h4>Amazon</h4></div>
+                                    <div class="sugest-items">
+                                        <img src="./img/chrome/Youtub-Icon.png" >
+                                        <h4>Youtub</h4>
+                                    </div>
+                                    <div class="sugest-items">
+                                        <img src="./img/chrome/Amazon-logo-meaning.jpg"onclick="goToAmazon()" >
+                                        <h4>Amazon</h4>
+                                    </div>
+                                </div>
+                                    <input type="checkbox" name="" id="customize-chrome">
+                                    <label for="customize-chrome">
+                                        <div class="customize-chrome"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a.996.996 0 0 0 0-1.41l-2.34-2.34a.996.996 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/><path d="M0 0h24v24H0z" fill="none"/></svg></div>
+                                    </label>
+                                    <div id="customizChrome">
+                                        <h3>Choose Your Chrome Background </h3>
+                                        <div class="chrome-backgrounds">
+                                            <img src="./img/images/background2.jpg" onclick="changeBg(2)" >
+                                            <img src="./img/images/background3.jpg" onclick="changeBg(3)" >
+                                            <img src="./img/images/background4.jpg" onclick="changeBg(4)" >
+                                        </div>
+                                    </div>
+                            </div>
+                            <div id="Amazon">
+                                <p id="AmazonTitle">Amazon - MmdrezaSadati</p>
+                                <div id="header">
+                                    <div class="top">
+                                        <div class="logo"><img src="./images/logo.png" width="133px" height="40px"></div>
+                                        <div class="location">
+                                            <span style="font-size: 13px;font-weight: 100;">hello</span>
+                                            <div class="left" style="padding-top: 15px;"><svg xmlns="http://www.w3.org/2000/svg" style="width: 15px;" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 384 512" style="enable-background:new 0 0 384 512;" xml:space="preserve"><style type="text/css">.st0{fill:none;stroke:#FFFFFF;stroke-width:30;stroke-miterlimit:10;}</style><path class="st0" d="M215.3,496.1C265.8,432.9,381,279.7,381,193.7c0-104.3-84.7-189-189-189S3,89.3,3,193.7  c0,86,115.2,239.2,165.7,302.4C180.8,511.1,203.2,511.1,215.3,496.1L215.3,496.1z M192,87.5c55.2,0,100,44.8,100,100  s-44.8,100-100,100s-100-44.8-100-100S136.8,87.5,192,87.5z"/></svg></div>
+                                            <span style="margin-top: 20px;">  Select Your Address </span>
+                                        </div>
+                                        <div class="search-box">
+                                            <div class="option">
+                                                All
+                                            </div>
+                                        <div class="search"><input class="search-input" type="search" placeholder="Search Amazon"></div>
+                                            <div class="search-icon"><button><svg xmlns="http://www.w3.org/2000/svg" style="cursor: pointer;width: 25px; fill:#444" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></button>
+                                            </div>
+                                        </div>
+                                        <div class="lang"><img src="./images/american.png" width="26px" height="25px">en</div>
+                                        <div class="account">
+                                            <span style="font-size: 13px;font-weight: 100; margin:0;">hello , signIn</span>
+                                            <span style="top: 30px; margin:0;">  Account & Lists<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" style="margin-left:5px; width:10px; rotate: 180deg;"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8H288c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z" style="fill: #d3d3d3;"/></svg></span>
+                                            
+                                            <div class="hello-signin"><div class="space"></div>
+                                                <div class="signin-top">
+                                                    <button>Sign in</button>
+                                                </div>
+                                                <div class="signin-bottom"><p>New customer ? <a href="#">Start Here</a></p></div>
+                                            </div>
+                                        </div>
+                                        <div class="orders">
+                                            <span style="font-size: 13px;font-weight: 100; margin:0;">Returns</span>
+                                            <span style="margin:0; margin-top: 20px;"> & Orders
+                                        </div>
+                                        <div class="cart">
+                                            <img src="./images/svg/f531215acabe747c4d5d077ef272c4a3.svg" >
+                                            <span style="margin: 0;left: 27px;top: -5px;color:#ff9000;">0</span>
+                                            Cart
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="left">
+                                            <div class="all" style="margin: 2px 10px;">all</div>
+                                            <div class="menu">One Medical</div>
+                                            <div class="menu">Clinic</div>
+                                            <div class="menu">Customer Service</div>
+                                            <div class="menu">Best Sellers</div>
+                                            <div class="menu">Amazon Basics</div>
+                                            <div class="menu">Prime</div>
+                                            <div class="menu">New Releases</div>
+                                            <div class="menu">Today's Deals</div>
+                                            <div class="menu">Music</div>
+                                            <div class="menu">Books</div>
+                                            <div class="menu">Registry</div>
+                                        </div>   
+                                        <div class="right">      
+                                            <div class="women-shop">Shop women-owned businesses</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="content">
+                                    <div class="slider-section">
+                                        <div class="slider">
+                                            <div class="gallery" id="gallery">
+                                                <div class="slider-items"><img src="./images/slider-images/61fYtOZ2lWL._SX1500_.jpg" ></div>
+                                                <div class="slider-items"><img src="./images/slider-images/51eA6Xr34eL._SX1500_.jpg" ></div>
+                                                <div class="slider-items"><img src="./images/slider-images/51kWAOgPnsL._SX1500_.jpg" ></div>
+                                                <div class="slider-items"><img src="./images/slider-images/71ZOjO-tDRL._SX1500_.jpg" ></div>
+                                            </div>
+                                            <div class="gallery-icon prev" onclick="BSprev()"> <i></i></div>
+                                            <div class="gallery-icon next" onclick="BSnext()"> <i></i> </div>
+                                            <div class="overlay"></div>
+                                        </div>
+                                    </div>
+                                    <div class="boxes" style="margin-top: -352px;">
+                                        <div class="box">
+                                            <h3>The pre-loved edit at shopbop</h3>
+                                            <div class="topBox"><img src="./images/boxes/box1.jpg" width="100%" ></div>
+                                            <a href="#">See more from Shopbop</a>
+                                        </div>
+                                        <div class="box">
+                                            <h3>Get 24/7 healtcare </h3>
+                                            <div class="topBox"><img src="./images/boxes/box2.jpg" width="100%" ></div>
+                                            <a href="#">join now , $144 for a year</a>
+                                        </div>
+                                        <div class="box">
+                                            <h3>The warm-weather edit</h3>
+                                            <div class="topBox" style="margin-top: 30px;">
+                                                <div class="leftBox">
+                                                    <div class="box-images"><img src="./images/A1_DQC_March23_Wo_ww_DRESSES_186x116._SY116_CB614366896_.jpg" width="130%"></div>
+                                                    <a href="#">Dresses</a>
+                                                </div>
+                                                <div class="rightBox">
+                                                    <div class="box-images"><img src="./images//A2_DQC_March23_Wo_ww_SANDALS_186x116._SY116_CB614366896_.jpg" width="130%"></div>
+                                                    <a href="#">Sandal</a>
+                                                </div>
+                                            </div>
+                                            <div class="bottomBox">
+                                                <div class="leftBox">
+                                                    <div class="box-images"><img src="./images/A3_DQC_March23_Wo_ww_HANDBAGS_186x116._SY116_CB614366896_.jpg" width="130%"></div>
+                                                    <a href="#">Handbags</a></div>
+                                                <div class="rightBox">
+                                                    <div class="box-images"><img src="./images/A4_DQC_March23_Wo_ww_SWIM_186x116._SY116_CB614425408_.jpg" width="130%"></div>
+                                                    <a href="#">Swimwear</a></div>
+                                            </div>
+                                            <a href="#">Shop getaway-ready style</a>
+                                        </div>
+                                        <div class="side">
+                                            <div class="signIn-box">
+                                                <h2>Sign in for the best experience</h2>
+                                                <button>Sign in securely</button>
+                                            </div>
+                                            <div class="mini-box"><img src="./images/2022_fallback_HouseAds_300x250_EN.jpg" ></div>
+                                        </div>
+                                    </div>
+                                    <div class="boxes">
+                                        <div class="box">
+                                            <h3>The pre-loved edit at shopbop</h3>
+                                            <div class="topBox"><img src="./images/boxes/box1.jpg" width="100%" ></div>
+                                            <a href="#">See more from Shopbop</a>
+                                        </div>
+                                        <div class="box">
+                                            <h3>Get 24/7 healtcare </h3>
+                                            <div class="topBox"><img src="./images/boxes/box2.jpg" width="100%" ></div>
+                                            <a href="#">join now , $144 for a year</a>
+                                        </div>
+                                        <div class="box">
+                                            <h3>The warm-weather edit</h3>
+                                            <div class="topBox" style="margin-top: 30px;">
+                                                <div class="leftBox">
+                                                    <div class="box-images"><img src="./images/A1_DQC_March23_Wo_ww_DRESSES_186x116._SY116_CB614366896_.jpg" width="130%"></div>
+                                                    <a href="#">Dresses</a>
+                                                </div>
+                                                <div class="rightBox">
+                                                    <div class="box-images"><img src="./images//A2_DQC_March23_Wo_ww_SANDALS_186x116._SY116_CB614366896_.jpg" width="130%"></div>
+                                                    <a href="#">Sandal</a>
+                                                </div>
+                                            </div>
+                                            <div class="bottomBox">
+                                                <div class="leftBox">
+                                                    <div class="box-images"><img src="./images/A3_DQC_March23_Wo_ww_HANDBAGS_186x116._SY116_CB614366896_.jpg" width="130%"></div>
+                                                    <a href="#">Handbags</a></div>
+                                                <div class="rightBox">
+                                                    <div class="box-images"><img src="./images/A4_DQC_March23_Wo_ww_SWIM_186x116._SY116_CB614425408_.jpg" width="130%"></div>
+                                                    <a href="#">Swimwear</a></div>
+                                            </div>
+                                            <a href="#">Shop getaway-ready style</a>
+                                        </div>
+                                        <div class="box">
+                                            <h3>Try Premium Brands under $200 for free</h3>
+                                            <div class="topBox"><img src="./images/MTcwYjYxZDQt-MGFhYzAwMWQt-w379._SY304_CB613187510_.jpg" width="100%" ></div>
+                                            <a href="#">Shop with Orime Before You Buy</a>
+                                        </div>
+                                    </div>
+                                    <div class="slider-section">
+                                        <div class="mini-slider">
+                                            <div class="mini-slider-title"><h3>Best Sellers in books</h3></div>
+                                            <div class="grid-items" id="gridItems1">
+                                                <div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/41ZLnc34EiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71yNgTMEcpL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71ZvnK+4JiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81fyoFoaxlL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81hHy5XrdKL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/41ZLnc34EiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71yNgTMEcpL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71ZvnK+4JiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81fyoFoaxlL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81hHy5XrdKL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div>
+                                            </div>
+                                            <div class="gallery-icon prev left-cl" onclick="MSleft(1)"> <i></i></div>
+                                            <div class="gallery-icon next right-cl" onclick="MSright(1)"> <i></i> </div>
+                                        </div>
+                                    </div>
+                                    <div class="slider-section">
+                                        <div class="mini-slider">
+                                            <div class="mini-slider-title"><h3>Best Sellers in books</h3></div>
+                                            <div class="grid-items"  id="gridItems2">
+                                                <div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/41ZLnc34EiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71yNgTMEcpL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71ZvnK+4JiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81fyoFoaxlL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81hHy5XrdKL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/41ZLnc34EiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71yNgTMEcpL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71ZvnK+4JiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81fyoFoaxlL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81hHy5XrdKL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div>
+                                            </div>
+                                            <div class="gallery-icon prev left-cl l1" onclick="MSleft(2)"> <i></i></div>
+                                            <div class="gallery-icon next right-cl r1" onclick="MSright(2)"> <i></i> </div>
+                                        </div>
+                                    </div>
+                                    <div class="boxes">
+                                        <div class="box">
+                                            <h3>The pre-loved edit at shopbop</h3>
+                                            <div class="topBox"><img src="./images/boxes/box1.jpg" width="100%" ></div>
+                                            <a href="#">See more from Shopbop</a>
+                                        </div>
+                                        <div class="box">
+                                            <h3>Get 24/7 healtcare </h3>
+                                            <div class="topBox"><img src="./images/boxes/box2.jpg" width="100%" ></div>
+                                            <a href="#">join now , $144 for a year</a>
+                                        </div>
+                                        <div class="box">
+                                            <h3>The warm-weather edit</h3>
+                                            <div class="topBox" style="margin-top: 30px;">
+                                                <div class="leftBox">
+                                                    <div class="box-images"><img src="./images/A1_DQC_March23_Wo_ww_DRESSES_186x116._SY116_CB614366896_.jpg" width="130%"></div>
+                                                    <a href="#">Dresses</a>
+                                                </div>
+                                                <div class="rightBox">
+                                                    <div class="box-images"><img src="./images//A2_DQC_March23_Wo_ww_SANDALS_186x116._SY116_CB614366896_.jpg" width="130%"></div>
+                                                    <a href="#">Sandal</a>
+                                                </div>
+                                            </div>
+                                            <div class="bottomBox">
+                                                <div class="leftBox">
+                                                    <div class="box-images"><img src="./images/A3_DQC_March23_Wo_ww_HANDBAGS_186x116._SY116_CB614366896_.jpg" width="130%"></div>
+                                                    <a href="#">Handbags</a></div>
+                                                <div class="rightBox">
+                                                    <div class="box-images"><img src="./images/A4_DQC_March23_Wo_ww_SWIM_186x116._SY116_CB614425408_.jpg" width="130%"></div>
+                                                    <a href="#">Swimwear</a></div>
+                                            </div>
+                                            <a href="#">Shop getaway-ready style</a>
+                                        </div>
+                                        <div class="box">
+                                            <h3>Try Premium Brands under $200 for free</h3>
+                                            <div class="topBox"><img src="./images/MTcwYjYxZDQt-MGFhYzAwMWQt-w379._SY304_CB613187510_.jpg" width="100%" ></div>
+                                            <a href="#">Shop with Orime Before You Buy</a>
+                                        </div>
+                                    </div>
+                                    <div class="slider-section">
+                                        <div class="mini-slider">
+                                            <div class="mini-slider-title"><h3>Best Sellers in books</h3></div>
+                                            <div class="grid-items" id="gridItems3">
+                                                <div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/41ZLnc34EiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71yNgTMEcpL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71ZvnK+4JiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81fyoFoaxlL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81hHy5XrdKL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/41ZLnc34EiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71yNgTMEcpL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71ZvnK+4JiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81fyoFoaxlL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81hHy5XrdKL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div>
+                                            </div>
+                                            <div class="gallery-icon prev left-cl" onclick="MSleft(3)"> <i></i></div>
+                                            <div class="gallery-icon next right-cl" onclick="MSright(3)"> <i></i> </div>
+                                        </div>
+                                    </div>
+                                    <div class="slider-section">
+                                        <div class="mini-slider">
+                                            <div class="mini-slider-title"><h3>Best Sellers in books</h3></div>
+                                            <div class="grid-items" id="gridItems4">
+                                                <div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/41ZLnc34EiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71yNgTMEcpL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71ZvnK+4JiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81fyoFoaxlL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81hHy5XrdKL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/41ZLnc34EiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71yNgTMEcpL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71ZvnK+4JiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81fyoFoaxlL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81hHy5XrdKL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div>
+                                            </div>
+                                            <div class="gallery-icon prev left-cl" onclick="MSleft(4)"> <i></i></div>
+                                            <div class="gallery-icon next right-cl" onclick="MSright(4)"> <i></i> </div>
+                                        </div>
+                                    </div>
+                                    <div class="slider-section">
+                                        <div class="ad-box"></div>
+                                    </div>
+                                    <div class="boxes">
+                                        <div class="box">
+                                            <h3>The pre-loved edit at shopbop</h3>
+                                            <div class="topBox"><img src="./images/boxes/box1.jpg" width="100%" ></div>
+                                            <a href="#">See more from Shopbop</a>
+                                        </div>
+                                        <div class="box">
+                                            <h3>Get 24/7 healtcare </h3>
+                                            <div class="topBox"><img src="./images/boxes/box2.jpg" width="100%" ></div>
+                                            <a href="#">join now , $144 for a year</a>
+                                        </div>
+                                        <div class="box">
+                                            <h3>The warm-weather edit</h3>
+                                            <div class="topBox" style="margin-top: 30px;">
+                                                <div class="leftBox">
+                                                    <div class="box-images"><img src="./images/A1_DQC_March23_Wo_ww_DRESSES_186x116._SY116_CB614366896_.jpg" width="130%"></div>
+                                                    <a href="#">Dresses</a>
+                                                </div>
+                                                <div class="rightBox">
+                                                    <div class="box-images"><img src="./images//A2_DQC_March23_Wo_ww_SANDALS_186x116._SY116_CB614366896_.jpg" width="130%"></div>
+                                                    <a href="#">Sandal</a>
+                                                </div>
+                                            </div>
+                                            <div class="bottomBox">
+                                                <div class="leftBox">
+                                                    <div class="box-images"><img src="./images/A3_DQC_March23_Wo_ww_HANDBAGS_186x116._SY116_CB614366896_.jpg" width="130%"></div>
+                                                    <a href="#">Handbags</a></div>
+                                                <div class="rightBox">
+                                                    <div class="box-images"><img src="./images/A4_DQC_March23_Wo_ww_SWIM_186x116._SY116_CB614425408_.jpg" width="130%"></div>
+                                                    <a href="#">Swimwear</a></div>
+                                            </div>
+                                            <a href="#">Shop getaway-ready style</a>
+                                        </div>
+                                        <div class="box">
+                                            <h3>Try Premium Brands under $200 for free</h3>
+                                            <div class="topBox"><img src="./images/MTcwYjYxZDQt-MGFhYzAwMWQt-w379._SY304_CB613187510_.jpg" width="100%" ></div>
+                                            <a href="#">Shop with Orime Before You Buy</a>
+                                        </div>
+                                    </div>
+                                    <div class="slider-section">
+                                        <div class="mini-slider">
+                                            <div class="mini-slider-title"><h3>Best Sellers in books</h3></div>
+                                            <div class="grid-items" id="gridItems5">
+                                                <div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/41ZLnc34EiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71yNgTMEcpL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71ZvnK+4JiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81fyoFoaxlL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81hHy5XrdKL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/41ZLnc34EiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71yNgTMEcpL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71ZvnK+4JiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81fyoFoaxlL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81hHy5XrdKL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div>
+                                            </div>
+                                            <div class="gallery-icon prev left-cl" onclick="MSleft(5)"> <i></i></div>
+                                            <div class="gallery-icon next right-cl" onclick="MSright(5)"> <i></i> </div>
+                                        </div>
+                                    </div>
+                                    <div class="slider-section">
+                                        <div class="mini-slider">
+                                            <div class="mini-slider-title"><h3>Best Sellers in books</h3></div>
+                                            <div class="grid-items" id="gridItems6">
+                                                <div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/41ZLnc34EiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71yNgTMEcpL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71ZvnK+4JiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81fyoFoaxlL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81hHy5XrdKL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/41ZLnc34EiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71yNgTMEcpL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71ZvnK+4JiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81fyoFoaxlL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81hHy5XrdKL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div>
+                                            </div>
+                                            <div class="gallery-icon prev left-cl" onclick="MSleft(6)"> <i></i></div>
+                                            <div class="gallery-icon next right-cl" onclick="MSright(6)"> <i></i> </div>
+                                        </div>
+                                    </div>
+                                    <div class="boxes">
+                                        <div class="box">
+                                            <h3>The pre-loved edit at shopbop</h3>
+                                            <div class="topBox"><img src="./images/boxes/box1.jpg" width="100%" ></div>
+                                            <a href="#">See more from Shopbop</a>
+                                        </div>
+                                        <div class="box">
+                                            <h3>Get 24/7 healtcare </h3>
+                                            <div class="topBox"><img src="./images/boxes/box2.jpg" width="100%" ></div>
+                                            <a href="#">join now , $144 for a year</a>
+                                        </div>
+                                        <div class="box">
+                                            <h3>The warm-weather edit</h3>
+                                            <div class="topBox" style="margin-top: 30px;">
+                                                <div class="leftBox">
+                                                    <div class="box-images"><img src="./images/A1_DQC_March23_Wo_ww_DRESSES_186x116._SY116_CB614366896_.jpg" width="130%"></div>
+                                                    <a href="#">Dresses</a>
+                                                </div>
+                                                <div class="rightBox">
+                                                    <div class="box-images"><img src="./images//A2_DQC_March23_Wo_ww_SANDALS_186x116._SY116_CB614366896_.jpg" width="130%"></div>
+                                                    <a href="#">Sandal</a>
+                                                </div>
+                                            </div>
+                                            <div class="bottomBox">
+                                                <div class="leftBox">
+                                                    <div class="box-images"><img src="./images/A3_DQC_March23_Wo_ww_HANDBAGS_186x116._SY116_CB614366896_.jpg" width="130%"></div>
+                                                    <a href="#">Handbags</a></div>
+                                                <div class="rightBox">
+                                                    <div class="box-images"><img src="./images/A4_DQC_March23_Wo_ww_SWIM_186x116._SY116_CB614425408_.jpg" width="130%"></div>
+                                                    <a href="#">Swimwear</a></div>
+                                            </div>
+                                            <a href="#">Shop getaway-ready style</a>
+                                        </div>
+                                        <div class="box">
+                                            <h3>Try Premium Brands under $200 for free</h3>
+                                            <div class="topBox"><img src="./images/MTcwYjYxZDQt-MGFhYzAwMWQt-w379._SY304_CB613187510_.jpg" width="100%" ></div>
+                                            <a href="#">Shop with Orime Before You Buy</a>
+                                        </div>
+                                    </div>
+                                    <div class="slider-section">
+                                        <div class="mini-slider">
+                                            <div class="mini-slider-title"><h3>Best Sellers in books</h3></div>
+                                            <div class="grid-items" id="gridItems7">
+                                                <div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/41ZLnc34EiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71yNgTMEcpL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71ZvnK+4JiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81fyoFoaxlL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81hHy5XrdKL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/41ZLnc34EiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71yNgTMEcpL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/71ZvnK+4JiL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81fyoFoaxlL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81hHy5XrdKL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div><div class="items"><img src="./images/81HESRIOxoL._AC_SY200_.jpg" width="100%" ></div>
+                                            </div>
+                                            <div class="gallery-icon prev left-cl" onclick="MSleft(7)"> <i></i></div>
+                                            <div class="gallery-icon next right-cl" onclick="MSright(7)"> <i></i> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="footer">
+
+                                    <div class="top-footer"> <a href="#"> Back to top</a></div>
+                                    <div class="center-footer">
+                                        <div class="center-footer-top">
+                                            <div class="category">
+                                                <h3>Get to Know Us</h3>
+                                                <ul>
+                                                    <li>Careers</li>
+                                                    <li>Blog</li>
+                                                    <li>About Amazon</li>
+                                                    <li>Investor Relations</li>
+                                                    <li>Amazon Devices</li>
+                                                    <li>Amazon Science</li>
+                                                </ul>
+                                            </div>
+                                            <div class="category">
+                                                <h3>Make Money with Us</h3>
+                                                <ul>
+                                                    <li>Sell products on Amazon</li>
+                                                    <li>Sell on Amazon Business</li>
+                                                    <li>Sell apps on Amazon</li>
+                                                    <li>Become an Affiliate</li>
+                                                    <li>Advertise Your Products</li>
+                                                    <li>Self-Publish with Us</li>
+                                                    <li>Host an Amazon Hub</li>
+                                                    <li>See More Make Money with Us</li>
+                                                </ul>
+                                            </div>
+                                            <div class="category">
+                                                <h3>Amazon Payment Products</h3>
+                                                <ul>
+                                                    <li>Amazon Business Card</li>
+                                                    <li>Shop with Points</li>
+                                                    <li>Reload Your Balance</li>
+                                                    <li>Amazon Currency Converter</li>
+                                                </ul>
+                                            </div>
+                                            <div class="category">
+                                                <h3>Let Us Help You</h3>
+                                                <ul>
+                                                    <li>Amazon and COVID-19</li>
+                                                    <li>Your Account</li>
+                                                    <li>Your Orders</li>
+                                                    <li>Shipping Rates & Policies</li>
+                                                    <li>Returns & Replacements</li>
+                                                    <li>Manage Your Content and Devices</li>
+                                                    <li>Amazon Assistant</li>
+                                                    <li>Help</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="center-footer-bottom">
+                                            <div class="logo" style="margin-top: -15px;cursor: pointer;"><img src="./images/logo.png" width="100%" ></div>
+                                            <div class="lang"> <a href="#"> <i></i>English</a> </div>
+                                            <div class="dollar"> <a href="#"> <i>$</i>USd - U.S. dollar</a></div>
+                                            <div class="country">  <a href="#"> <img src="./images/american.png" > United States</a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-footer"></div>
+                                </div>
+                            </div>
+                            <div id="cantReach">
+                                <div class="cantReach-content">
+                                    <img src="img/chrome/cantReach.png" width="72" >
+                                    <span>This site can’t be reached</span>
+                                    <p style="margin: 10px 0;">Check if there is a typo in <span id="cantReachAddress">mmd</span>.</p>
+                                    <p style="margin: 10px 0;">If spelling is correct, <span id="blue-section-cantReach"> try running Windows Network Diagnostics.</span></p>
+                                    <p style="margin: 10px 0;">DNS_PROBE_FINISHED_NXDOMAIN</p>
+                                    <button onclick="refresh()" style="margin: 20px 0;padding: 8px 16px;background-color:rgb(26, 115, 232); color: #fff;border: 0;border-radius: 4px;cursor: pointer;">Reload</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="windows-items" ondblclick="showContentFlex(5)">
+                    <img src="./img/images/background4.jpg" >
+                    <p>Earth.jpg</p>
+                    <div class="item Photos" id="item5">
+                        <div class="TopOf-Photos">
+                            <div class="top-item_left">
+                                <div class="TopOf-Photos-left" style="justify-content: left;padding-left: 75px;"><p>Earth.jpg</p></div>
+                                <div class="TopOf-Photos-center">
+                                    <img width="24" src="./img/Photos/photo-editing.svg" >
+                                    <img width="24" src="./img/Photos/rotate-image.svg" >
+                                    <img width="24" src="./img/Photos/trash-bin.svg" >
+                                    <input type="checkbox" id="like-photos">
+                                    <input type="checkbox" class="checkbox-accardion" id="like-photos">
+                                    <label for="like-photos"><svg class="like-photos" width="24" style="padding-top: 5px;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve"><style type="text/css">.TopOf-Photos-center .st0{fill:transparent;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;transition: .1s;}</style><g transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"><path class="st0" d="M31.1,19.2c-3.3,0-6.4,1.3-8.7,3.6s-3.6,5.4-3.6,8.7s1.3,6.4,3.6,8.7l22.6,22.6l22.6-22.6c2.3-2.3,3.6-5.4,3.6-8.7s-1.3-6.4-3.6-8.7l0,0c-2.3-2.3-5.4-3.6-8.7-3.6c-3.3,0-6.4,1.3-8.7,3.6l-5.2,5.2l-5.2-5.2C37.5,20.5,34.4,19.2,31.1,19.2z"/></g></svg></label>
+                                    <img width="16" src="./img/Photos/information-icon.svg" >
+                                    <img width="14" src="./img/Photos/share-icon.svg" >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="rotate: 90deg;" fill="#fff"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></svg>
+                                </div>
+                                <div class="TopOf-Photos-right">
+                                    <input type="checkbox" name="" id="zoom-Photo-check">
+                                    <div id="zoom-Photo">
+                                        <label for="zoom-Photo-check" onclick="zoomPhotos()"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 4000 2000" style="width:50px" xml:space="preserve"><style type="text/css">.st0{fill:#FFFFFF;}</style><g><g><path class="st0" d="M2225.2,17.6c-417.3,0-756.9,339.6-756.9,756.9c0,187.3,68.8,358.7,181.8,491.1l-615.1,615.1c-23.3,23.3-23.3,61,0,84.2c11.5,11.5,26.9,17.5,42.1,17.5c15.2,0,30.3-5.8,42.1-17.5l615.1-615.1c132.4,113,303.8,181.8,491.1,181.8c417.3,0,756.9-339.6,756.9-756.9S2642.8,17.6,2225.2,17.6z M2225.2,1412.6c-351.9,0-638.1-286.2-638.1-638.1s286.2-637.9,638.1-637.9s638.1,286.2,638.1,638.1S2577.1,1412.6,2225.2,1412.6z"/><path class="st0" d="M2553.6,715.1h-269v-269c0-33-26.7-59.4-59.4-59.4c-32.7,0-59.4,26.7-59.4,59.4v269h-269c-33,0-59.4,26.7-59.4,59.4c0,33,26.7,59.4,59.4,59.4h269v269c0,33,26.7,59.4,59.4,59.4c32.7,0,59.4-26.7,59.4-59.4V834.1h269c33,0,59-26.7,59.4-59.4C2613.2,741.8,2586.5,715.1,2553.6,715.1z"/></g></g></svg></label>
+                                        <input type="range" class="range-input" min="0.1" max="2" step="0.1" id="zoomPhoto">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="top-item_right">
+                                <div class="minimize">
+                                    <img src="./img/windows-icons/Minimize - White.svg" >
+                                </div>
+                                <div class="restoreDown" onclick="miniItem(5)">
+                                    <img src="./img/windows-icons/RestoreDown - White.svg" >
+                                </div>
+                                <div class="close" onclick="closeItem(5)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32px" height="32px" style="fill:#fff;"><path d="M 7.21875 5.78125 L 5.78125 7.21875 L 14.5625 16 L 5.78125 24.78125 L 7.21875 26.21875 L 16 17.4375 L 24.78125 26.21875 L 26.21875 24.78125 L 17.4375 16 L 26.21875 7.21875 L 24.78125 5.78125 L 16 14.5625 Z"/></svg></div>
+                            </div>
+                        </div>
+                        <div id="projectPhotos">
+                            <img id="projectPhoto"  src="./img/images/background4.jpg" width="768" height="480" >
+                        </div>
+                    </div>
+                </div>
+                <div class="windows-items" ondblclick="showContentFlex(8)">
+                    <img src="./img/instagram/instagram.png" style="border-radius: 15px;" >
+                    <p>Instagram</p>
+                    <div class="item Instagram desktopMode light" id="item8">
+                        <div class="top-item_right">
+                            <div class="chooseTheme">
+                                <li>Light theme <input type="checkbox" class="toggle toggleTheme" onclick="changeTheme()" /> Dark theme</li>
+                                <li>DeskTop mode<input type="checkbox" class="toggle toggleChangeMode" onclick="changeMode()" /> Mobile mode </li>
+                            </div>
+                            <div class="minimize">
+                                <img src="./img/windows-icons/Minimize - White.svg" class="dark-navBottom" >
+                                <img src="./img/windows-icons/Minimize.svg" class="displayNone light-navBottom" >
+                            </div>
+                            <div class="restoreDown" onclick="miniItem(8)">
+                                <img src="./img/windows-icons/RestoreDown - White.svg" class="dark-navBottom" >
+                                <img src="./img/windows-icons/RestoreDown.svg" class="displayNone light-navBottom" >
+                            </div>
+                            <div class="close" onclick="closeItem(8)"><svg xmlns="http://www.w3.org/2000/svg" class="displayNone light-navBottom" viewBox="0 0 32 32" width="32px" height="32px" style="fill:#000;"><path d="M 7.21875 5.78125 L 5.78125 7.21875 L 14.5625 16 L 5.78125 24.78125 L 7.21875 26.21875 L 16 17.4375 L 24.78125 26.21875 L 26.21875 24.78125 L 17.4375 16 L 26.21875 7.21875 L 24.78125 5.78125 L 16 14.5625 Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" class="dark-navBottom" viewBox="0 0 32 32" width="32px" height="32px" style="fill:#fff;"><path d="M 7.21875 5.78125 L 5.78125 7.21875 L 14.5625 16 L 5.78125 24.78125 L 7.21875 26.21875 L 16 17.4375 L 24.78125 26.21875 L 26.21875 24.78125 L 17.4375 16 L 26.21875 7.21875 L 24.78125 5.78125 L 16 14.5625 Z"/></svg></div>
+                            
+                        </div>
+                        <div class="desktop">
+                            <input type="radio" name="changePage" id="changeMassagePage">
+                            <input type="radio" name="changePage" id="changeHomePage">
+                            <input type="radio" name="changePage" id="changeProfilePage">
+                            <div class="left-des-Mode">
+                                <img src="./img/instagram/instagram-logo-black.png"class="displayNone light-navBottom" width="150px" >
+                                <img src="./img/instagram/instagram-logo.png"class="dark-navBottom" width="150px" >
+                                <ul class="menuInstagram">
+                                    <label for="changeHomePage"><li class="items-InstaMenu"> <img src="./img/instagram/navBottom Icons - home.jpg"  class="dark-navBottom" ><img src="./img/instagram/SVG/home.svg" class="displayNone light-navBottom"> Home</li></label>
+                                    <li class="items-InstaMenu"> <img src="./img/instagram/navBottom Icons - search.jpg"  class="dark-navBottom" ><img src="./img/instagram/SVG/Search.svg" class="displayNone light-navBottom"> Search</li>
+                                    <li class="items-InstaMenu"> <img src="./img/instagram/SVG/explore - white.svg"  class="dark-navBottom" ><img src="./img/instagram/SVG/explore.svg" class="displayNone light-navBottom"> Explore</li>
+                                    <li class="items-InstaMenu"> <img src="./img/instagram/navBottom Icons - Reels.jpg"  class="dark-navBottom" ><img src="./img/instagram/SVG/reels.svg" class="displayNone light-navBottom"> Reels</li>
+                                    <label for="changeMassagePage"><li class="items-InstaMenu have-notification"> <span style="padding: 2px;">1</span><img src="./img/instagram/Massage Icon.png"  class="dark-navBottom" ><img src="./img/instagram/SVG/Massage.svg" class="displayNone light-navBottom"> Massages</li></label>
+                                    <li class="items-InstaMenu have-notification"><span></span> <img src="./img/instagram/SVG/heart - white.svg"  class="dark-navBottom" ><img src="./img/instagram/SVG/heart.svg" class="displayNone light-navBottom"> Notifications</li>
+                                    <li class="items-InstaMenu"> <img src="./img/instagram/navBottom Icons - addPost.jpg"  class="dark-navBottom" ><img src="./img/instagram/SVG/creat.svg" class="displayNone light-navBottom"> Creat</li>
+                                    <label for="changeProfilePage"><li class="items-InstaMenu"> <img src="./img/chrome/account.jpg"  class="user-image-navBottom" > Profile</li></label>
+                                </ul>
+                            </div>
+                            <div class="center-des-Mode">
+                                <div class="instagram-top-Icons">
+                                    <div class="instagramIcns-left"><img src="./img/instagram/instagram-logo.png"class="dark-navBottom" width="150px" ><img src="./img/instagram/instagram-logo-black.png"class="displayNone light-navBottom" width="150px" ></div>
+                                    <div class="instagramIcns-right">
+                                        <svg class="" width="27" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve"><style type="text/css">.like-post{fill:transparent;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;transition: .1s;}</style><g transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"><path class="like-post" d="M31.1,19.2c-3.3,0-6.4,1.3-8.7,3.6s-3.6,5.4-3.6,8.7s1.3,6.4,3.6,8.7l22.6,22.6l22.6-22.6c2.3-2.3,3.6-5.4,3.6-8.7s-1.3-6.4-3.6-8.7l0,0c-2.3-2.3-5.4-3.6-8.7-3.6c-3.3,0-6.4,1.3-8.7,3.6l-5.2,5.2l-5.2-5.2C37.5,20.5,34.4,19.2,31.1,19.2z"/></g></svg>
+                                        <label class="pointer" for="changeMassagePage"><img src="./img/instagram/Massage Icon.png"class="dark-navBottom"  width="25px" height="25px" ><img src="./img/instagram/SVG/Massage.svg"class="displayNone light-navBottom"  width="25px" height="25px" ><span style="color: #fff !important;" >1</span></label>
+                                    </div>
+                                </div>
+                                <div class="storySection">
+                                    <div class="story">
+                                        <img class="user-image" src="./img/chrome/account.jpg">
+                                        <span style="color: #fff !important;">+</span>
+                                        <p>Your Story</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="posts-section" id="postsSection">
+                                </div>
+                            </div>
+                            <div class="right-des-Mode">
+                                <div class="sugested"><img class="user-image" src="./img/chrome/account.jpg"><p class="user-name" style="font-size: 15px; padding: 0 5px; color: #ffffff;">mmdrza.2007</p> <a href="#" >Profile </a></div>
+                                <h4>Suggested for You</h4>
+                                <ul>
+                                    <li>About</li>
+                                    <li>Help</li>
+                                    <li>Prees</li>
+                                    <li>API</li>
+                                    <li>Jobs</li>
+                                    <li>Privacy</li>
+                                    <li>Terms</li>
+                                    <li>Locations</li>
+                                    <li>Language</li>
+                                    <li>Meta Verified</li>
+                                    <li>&copy; 2023 Instagram From MohamadReza Sadati</li>
+                                </ul>
+                            </div>
+                            <div class="Massage-insta">
+                                <div class="topMassage-insta"><label id="backToHome" class="pointer" for="changeHomePage"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;fill: #fff; width: 30px;" xml:space="preserve" ><path d="M300.8,721.3c20.1,20.1,52.7,20.1,72.8,0c20.1-20.1,20.1-52.7,0-72.8L175.8,450.7l572.8-0.1c28.4,0,51.5-23,51.5-51.5   c0-28.4-23-51.5-51.5-51.5l-572.8,0.1l197.8-197.8c20.1-20.1,20.1-52.7,0-72.8c-10.1-10-23.2-15.1-36.4-15.1   c-13.2,0-26.3,5-36.4,15.1L15.1,362.8C5.4,372.5,0,385.6,0,399.2c0,13.7,5.4,26.7,15.1,36.4L300.8,721.3z"></path></svg> </label><span> @mmdrza.2007</span><span id="addPost" style="color: #fff !important;">+</span> </div>
+                                <div class="searchDirect"><input type="text" class="searchInDirects" placeholder="Search In Your Direct!"><img src="./img/chrome/Search-Icon.svg" ></div>
+                                <div class="OnlinesMassage-insta">
+                                    <div class="online">
+                                        <div class="onlineImage"><img class="user-image" src="./img/chrome/account.jpg" > <span class="onlineUser"></span></div>
+                                        <p>mmdrza.2007</p>
+                                        </div>
+                                </div>
+                                <div class="directsMassage-insta">
+                                    <div class="topOfDirectsMassages"><h3>Massages</h3> <a href="#">Requests</a></div>
+                                </div>
+                            </div>
+                            <div class="profilePage">
+                                <div class="ProfileDetaile">
+                                    <div class="LeftProDeta"><img class="user-image" width="100"  src="./img/chrome/account.jpg"></div>
+                                    <div class="RightProDeta">
+                                        <div class="profileEdit">
+                                            <p class="user-name" >mmdrza.2007</p>
+                                            <button>Edit Profile</button>
+                                            <button>Ad Tools</button>
+                                            <img src="./img/instagram/SVG/Setting - white.svg"  class="pointer dark-navBottom" ><img src="./img/instagram/SVG/Setting.svg" class="displayNone pointer light-navBottom">
+                                        </div>
+                                        <div class="profileFollowers">
+                                            <div class="postsNumber"><span>0</span><p>Posts</p></div>
+                                            <div class="followers"><span>36</span><p>Followers</p></div>
+                                            <div class="following"><span>111</span><p>Following</p></div>
+                                        </div>
+                                        <div class="profileCaption">
+                                            <p class="user-name" style="font-size: 17px;">mmdrza.2007</p>
+                                            <p class="profileCaptions"style="font-size: 13px;">OrdibeHeshT - 86 <br>
+                                                Living in Sari City <br>
+                                                Front end developer💻 <br>
+                                                Web Designer🌐</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Hilightes storySection">
+                                    <div class="Hilight">
+                                        <div class="Hilight-pic"><img src="./img/instagram/posts/learn-steps-webapp-min.png" ></div>
+                                        <p class="Hilight-name">mmdrza Hilight 1</p>
+                                    </div>
+                                    <div class="Hilight">
+                                        <div class="Hilight-pic"><img src="./img/instagram/posts/memari-steps-min.png" ></div>
+                                        <p class="Hilight-name">mmdrza Hilight 2</p>
+                                    </div>
+                                    <div class="Hilight">
+                                        <div class="Hilight-pic"><img src="./img/instagram/SVG/Plus.svg" style="background-color: #fcfcfc;" ></div>
+                                        <p class="Hilight-name">Add Hilight</p>
+                                    </div>
+                                </div>
+                                <div class="ProfilePost"></div>
+                            </div>
+                            <div class="navBottom-instagram">
+                                <label for="changeHomePage"><img src="./img/instagram/navBottom Icons - home.jpg"  class="dark-navBottom" ><img src="./img/instagram/SVG/home.svg" class="displayNone light-navBottom"></label>
+                                <img src="./img/instagram/navBottom Icons - search.jpg"  class="dark-navBottom" ><img src="./img/instagram/SVG/Search.svg" class="displayNone light-navBottom">
+                                <img src="./img/instagram/navBottom Icons - addPost.jpg"  class="dark-navBottom" ><img src="./img/instagram/SVG/creat.svg" class="displayNone light-navBottom">
+                                <img src="./img/instagram/navBottom Icons - Reels.jpg"  class="dark-navBottom" ><img src="./img/instagram/SVG/reels.svg" class="displayNone light-navBottom">
+                                <label for="changeProfilePage"><img src="./img/chrome/account.jpg"  class="user-image-navBottom" ></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item DisplaySetting" id="item4">
+                    <div>
+                        <div class="top-item_right">
+                            <div class="minimize">
+                                <img src="./img/windows-icons/Minimize.svg" >
+                            </div>
+                            <div class="restoreDown" onclick="miniItem(4)">
+                                <img src="./img/windows-icons/RestoreDown.svg" >
+                            </div>
+                            <div class="close" onclick="closeItem(4)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32px" height="32px"><path d="M 7.21875 5.78125 L 5.78125 7.21875 L 14.5625 16 L 5.78125 24.78125 L 7.21875 26.21875 L 16 17.4375 L 24.78125 26.21875 L 26.21875 24.78125 L 17.4375 16 L 26.21875 7.21875 L 24.78125 5.78125 L 16 14.5625 Z"/></svg></div>
+                        </div>
+                        <div class="list-display-setting"></div>
+                        <div class="display-setting-section">
+                            <div class="settings">
+                                <h2>Background</h2>
+                                <div class="choose-windows-bg">
+                                    <img src="./img/images/background1.jpg" onclick="changeWindowBg(1)" >
+                                    <img src="./img/images/background2.jpg" onclick="changeWindowBg(2)" >
+                                    <img src="./img/images/background3.jpg" onclick="changeWindowBg(3)" >
+                                    <img src="./img/images/background4.jpg" onclick="changeWindowBg(4)" >
+                                </div>
+                                <div class="choose-theme">
+                                    <h3>Choose Windows fill (if you wont)</h3>
+                                    <div class="windows-fill">
+                                        <input type="color" class="color-input" name="" id="windowsFill">
+                                        <input class="confirm" type="button" onclick="changeThemeBackgroundFill()" value="confirm">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="help-section"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="navbar">
+            <div class="nav-left" style="width: 65%;">
+                <input type="checkbox" name="" id="showStartMenu">
+                    <div class="start-menu">
+                        <div class="start-menu-right">
+                            <div class="start-menu-item" onclick="showContentFlex(1)"><img width="25px" src="./img/windows-icons/imageres_109.ico" > ThisPc</div>
+                            <div class="start-menu-item" onclick="showContentFlex(2)"><img width="25px" src="./img/windows-icons/Photoshop.png" > PhotoShop</div>
+                            <div class="start-menu-item" onclick="showContentFlex(3)"><img width="25px" src="./img/windows-icons/SmallLogo.png"  > Google Chrome</div>
+                            <div class="start-menu-item" onclick="showContentFlex(4)"><img width="25px" src="./img/windows-icons/imageres_110.ico"  > Display Setting</div>
+                            <div class="start-menu-item" onclick="showContentFlex(5)"><img width="25px" src="./img/images/background4.jpg"  > Earth.jpg</div>
+                            <div class="start-menu-item" onclick="showContentFlex(8)"><img width="25px" style="border-radius: 7px;"src="./img/instagram/instagram.png"  > Earth.jpg</div>
+                            <label for="showStartMenu" class="shutDownButtom"><div class="start-menu-item" onclick="shutDown()" style="margin: 0;"><img width="25px" src="./img/svg/shut-down.svg" > Shut Down</div></label>
+                        </div>
+                    </div>
+                <label for="showStartMenu">
+                    <div class="items-navbar windows-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M19.852 7.761l-15 2.25C4.362 10.085 4 10.505 4 11v12c0 .553.448 1 1 1h15c.552 0 1-.447 1-1V8.75c0-.291-.127-.567-.348-.758C20.432 7.803 20.139 7.721 19.852 7.761zM45.652 4.242c-.22-.189-.512-.271-.801-.231l-21 3.15C23.362 7.235 23 7.655 23 8.15V23c0 .553.448 1 1 1h21c.552 0 1-.447 1-1V5C46 4.709 45.873 4.433 45.652 4.242zM20 26H5c-.552 0-1 .447-1 1v12c0 .495.362.915.852.989l15 2.25c.05.007.099.011.148.011.238 0 .47-.085.652-.242C20.873 41.817 21 41.541 21 41.25V27C21 26.447 20.552 26 20 26zM45 26H24c-.552 0-1 .447-1 1v14.85c0 .495.362.915.852.989l21 3.15C44.901 45.996 44.951 46 45 46c.238 0 .47-.085.652-.242C45.873 45.567 46 45.291 46 45V27C46 26.447 45.552 26 45 26z"/></svg>
+                    </div>
+                </label>
+                    <input type="text" class="search-box-navbar" placeholder="type here to search">
+                <div class="items-navbar" id="items-navbar1" onclick="navItem(1)">
+                    <img src="./img/windows-icons/imageres_1023.ico" width="50px" >   
+                </div>
+                <div class="items-navbar" id="items-navbar2" onclick="navItem(2)">
+                    <img src="./img/windows-icons/Photoshop.png" width="50px" >   
+                </div>
+                <div class="items-navbar" id="items-navbar3" onclick="navItem(3)">
+                    <img src="./img/windows-icons/SmallLogo.png" width="30px" height="30px" >   
+                </div>
+                <div class="items-navbar" id="items-navbar4" onclick="navItem(4)">
+                    <img src="./img/windows-icons/imageres_110.ico" width="50px" height="50px" >   
+                </div>
+                <div class="items-navbar" id="items-navbar5" onclick="navItem(5)">
+                    <img src="./img//windows-icons/Photos-AppIcon.png" width="50px" height="50px" >   
+                </div>
+                <div class="items-navbar" id="items-navbar8" onclick="navItem(8)">
+                    <img src="./img/instagram/instagram.png" style="border-radius: 7px;" width="50px" height="50px" >   
+                </div>
+            </div>
+            <div class="nav-right" style="width: 32%;"></div>
+        </div>
+    </div>
+    <div id="turnOnPage">
+        <img onclick="turnOn()" src="./img/svg/shut-down.svg" width="150px" >
+        <p>Turn On Windows Please Click On Icon</p>
+    </div>
+<script>
+    
+    var folderNumber=0; 
+function AddFolder(){
+    folderNumber++
+    column = document.querySelector(".column");
+    var folder = document.createElement("div");
+    folder.className ="windows-items";
+    folder.innerHTML = '<img src="./img/windows-icons/shell32_264.ico" ><p>New Folder '+folderNumber+'</p>';
+    column.appendChild(folder);
+}
+</script>
+
+<script src="./scripts/script.js"></script>
+<script src="./scripts/dataUsers.js"></script>
+<script src="./scripts/photoShop.js"></script>
+<script src="./scripts/Amazon.js"></script>
+<script src="./scripts/chrome.js"></script>
+<script src="./scripts/Photos.js"></script>
+<script src="./scripts/displaySetting.js"></script>
+<script src="./scripts/PowerOfPage.js"></script>
+<script src="./scripts/login.js"></script>
+<script src="./scripts/instagram.js"></script>
+</body>
+</html>

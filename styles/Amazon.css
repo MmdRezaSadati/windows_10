@@ -1,0 +1,485 @@
+@font-face {
+    font-family: amazon;
+    src: url(../font/Amazon\ Ember.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: amazon;
+}
+*{
+    font-family: amazon;
+}
+a{
+    text-decoration: none;
+    color: #007185;
+}
+a:hover{
+    text-decoration: underline;
+    color: #c7511f;
+}
+
+#header > .top{
+    background-color: #131921;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    flex-flow: row nowrap;
+    color: #fff;
+}
+#header > .top > div{
+    padding: 10px;
+    margin: 10px 5px;
+    display: flex;
+    border: 1px solid transparent;
+}
+#header > .top span{
+    display: inline-block;
+    white-space: nowrap;
+    position: absolute;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#header > .top > div:hover{
+    border: 1px solid #ccc;
+}
+#header > .top > .search-box:hover{
+    border: 1px solid transparent;
+}
+#header > .top > .logo{
+    height: auto;
+    cursor: pointer;
+    width: 11%;
+    justify-content: center;
+}
+#header > .top > .location{
+    width: 15%;
+}
+#header > .top > .search-box{
+    width: 45%;
+    padding: 5px;
+}
+#header > .top > .lang img{
+    margin-right: 5px;
+    position: relative;
+    top: 9px;
+}
+#header > .top > .lang{
+    width: 4%;
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+}
+#header > .top > .account{
+    width: 11%;
+    position: relative;
+}
+.space{
+    border-bottom: 15px solid #fff;
+    border-left: 15px solid rgba(0,0,0,0);
+    border-right: 15px solid rgba(0,0,0,0);
+    top: -20px;
+    clear: both;
+    height: 0;
+    margin: auto;
+    position: relative;
+    z-index: 999;
+    right: 0;
+    width: 0;
+}
+#header > .top > .account:hover .hello-signin{
+    opacity: 1;
+    top: 75px;
+    visibility: visible;
+}
+.hello-signin button{
+    width: 80%;
+    margin-top: 5px;
+    background: linear-gradient(to bottom,#f8e3ad,#EEBA37);
+    border: 1px solid #ffb700;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.hello-signin button:hover{
+    background: linear-gradient(to bottom,#EEBA37,#f8e3ad);
+}
+.hello-signin{
+    text-align: center;
+    width: 200px;
+    left: -20px;
+    color: #000;
+    padding: 5px;
+    height: auto;
+    transition:all .3s;
+    position: absolute;
+    top: 175px;
+    z-index: 998;
+    border: 1px solid #0000006c;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #fff;
+}
+#header > .top > .orders{
+    width: 6%;
+}
+#header > .top > .cart{
+    width: 7%;
+    position: relative;
+    line-height: 43px;
+}
+#header > .top > .account{
+
+}
+#header > .top > .cart img{
+    width: 40px;
+}
+#header > .top .option select{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0 10px;
+    
+}
+
+#header > .top .option{
+    width: 13%;
+    line-height: 50px;
+    color: #444;
+    text-align: center;
+    border-radius: 8px 0  0 8px;
+    background-color: #ddd;
+    border-right: 2px solid #ccc;
+}
+#header > .top .search{
+    width: 85%;
+}
+#header > .top .search-icon{
+    width: 8%;
+    overflow: hidden;
+}
+#header > .top .search-input{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border: 0;
+}
+#header > .top .search-icon button{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-color: #febd69;
+    border-radius: 0 8px 8px 0;
+}
+#header > .bottom{
+    display: flex;
+    flex-flow: row nowrap;
+    white-space: nowrap;
+    justify-content: center;
+    background-color: #232f3e;
+}
+
+.all , .menu ,.women-shop{
+    margin: 1px;
+    font-size: 14px;
+    padding: 12px 8px 13px 8px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    transition: .2s;
+    cursor: pointer;
+    color: #fff;
+}
+.all:hover , .menu:hover ,.women-shop:hover{
+    border: 1px solid #ccc;
+}
+.women-shop{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 83%;
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    width: 17%;
+}
+#content{
+    background-color: #E3E6E6;
+}
+.slider-section{
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+
+}
+
+.slider{
+    height: 600px;
+    width: 1500px;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+}
+.gallery{
+    display: flex;
+    z-index: 11;
+    flex-flow: row;
+    left: 0;
+    position: relative;
+    transition: all .6s;
+}
+.gallery .slider-items{
+    width: 100%;
+}
+.gallery-icon{
+    width: 80px;
+    height: 250px;
+    z-index: 12;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    border: 4px ridge transparent;
+    border-radius: 8px;
+    transition: .3s;
+    cursor: pointer;
+}
+.gallery-icon i {
+    background: url(../images/ydDD9hnRfziI$y7.png) no-repeat;
+    background-size: 68px 52px;
+    display: inline-block;
+    width: 34px;
+    height: 52px;
+    position: relative;
+    top: 50%;
+}
+.prev{
+    left: 0;
+    padding-left: 5px;
+}
+.next {
+    right: 0;
+    padding-right: 5px;
+}
+.next i{
+    background-position: -34px;
+    right: 0;
+}
+.overlay{
+    background: linear-gradient(-180deg,rgba(234,237,237,0),#E3E6E6);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 250px;
+    z-index: 20;
+}
+.boxes img{
+    filter: grayscale(.0) brightness(1);
+    transition: .2s;
+    cursor: pointer;
+}
+.boxes img:hover{
+    filter: grayscale(.5) brightness(.8);
+}
+.boxes{
+    z-index: 50;
+    position: relative;
+    height: auto;
+    padding: 10px 40px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.topBox,.bottomBox {
+    margin:10px auto;
+}
+.topBox > div ,.bottomBox > div{
+    width: 49%;
+    display: inline-block;
+    position: relative;
+}
+.topBox > div  > .box-images,.bottomBox > div > .box-images{
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    top: 0;
+}
+.side{
+    padding: 5px 15px;
+    text-align: left;
+    width: 330px;
+    height: 340px;
+}
+.side .signIn-box{
+    padding: 10px 15px;
+}
+.side .mini-box{ 
+    background-color: transparent;
+    margin-top: 10px;
+    padding: 0;
+    cursor: pointer;
+    height: 53%;
+}
+.side .signIn-box button{
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #ffd900;
+    border: 1px solid transparent;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0  10px 10px 1px #0000000e ;
+    transition: .2s;
+}
+.side .signIn-box button:hover{
+    background-color: #00000000;
+    border: 1px solid #ffd900;
+    text-shadow: 0 0 10px #ffd900aa;
+    box-shadow: 0  10px 10px 1px #00000000 ;
+    color: #ffd900;
+}
+.box {
+    position: relative;
+    padding: 10px 15px;
+    width: 330px;
+    display: flex;
+    flex-flow: column;
+    background-color: #fff;
+    margin: 8px;
+    font-family: tahoma;
+}
+.side div{
+    padding: 10px 15px;
+    background-color: #fff;
+}
+.box a{
+    font-size: 14px;
+    text-align: left;
+}
+.box-images{
+    margin-bottom: 15px;
+    position: absolute;
+    top: 110px;
+    width: 275px;
+    cursor: pointer;
+}
+.ad-box{
+    height: 280px;
+    margin: 10px auto;
+    background: url(../images/2022_fallback_HouseAds_1940x500_EN.jpg) no-repeat;
+    background-size: 100%;
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+}
+
+.mini-slider {
+    height: 280px;
+    margin: 10px 20px;
+    padding: 10px;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.mini-slider .items{
+    width: 130px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.grid-items{
+    width: 200%;
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    left: 0;
+    transition: .45s;
+}
+.mini-slider .left-cl ,.mini-slider .right-cl{
+    background-color: #ffffff80;
+    height: 110px;
+    width: 65px;
+    top: 34%;
+}
+.mini-slider .left-cl:hover ,.mini-slider .right-cl:hover{
+    background-color: #ffffff;
+}
+.mini-slider .left-cl i{
+    margin-left: 15px;
+    top: 30%;
+}
+.mini-slider .right-cl i{
+    margin-right: 15px;
+    top: 30%;
+}
+#footer{
+    text-align: center;
+    color: #eee;
+}
+.top-footer{
+    background-color: #37475A;
+    padding: 15px 0;
+}
+#footer a{
+    color: #eee;
+}
+.center-footer{
+    background-color: #232F3E;
+}
+.center-footer-top{
+    display: flex;
+    padding: 20px 100px;
+    border-bottom: 1px solid #fff;
+    flex-flow: nowrap row;
+}
+.category{
+    text-align: left;
+    width: 24%;
+    margin-right: 15px;
+}
+.category ul{
+    padding: 0;
+
+}
+.category li{
+    list-style: none;
+    margin-bottom: 8px;
+    color: #ccc;
+    cursor: pointer;
+    transition: .1s;
+}
+.category li:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.center-footer-bottom{
+    padding: 50px 23%;
+    display: flex;
+}
+.center-footer-bottom div{
+    width: 24%;
+
+}
+.center-footer-bottom a{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.center-footer-bottom i{
+    color: #fff;
+    margin: 10px;
+    font-size: 18px;
+}

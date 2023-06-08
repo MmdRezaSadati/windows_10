@@ -1,0 +1,4 @@
+menu = #535353
+workSpace = #262626
+borders = #383838
+Icons = #dddddd

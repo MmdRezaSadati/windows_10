@@ -1,0 +1,31 @@
+.Login-To-Windows{
+    display: flex;
+    /* flex */
+    height: 100%;
+    z-index: 100000;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    color: #fff;
+    background-color: #002f4bd9;
+}
+.account-login{
+    border-radius: 100px;
+    margin-top: -50px;
+}
+.input-login{
+    width: 250px;
+    padding: 5px;
+    border: 0;
+    margin: 10px 0;
+}
+.login-section button{
+    padding: 5px;
+    border: 0;
+}
+#wrong{
+    color: #f00;
+    text-align: center;
+    font-size: 16px;
+    display: none;
+}

@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/images/background1.jpg) no-repeat ;
+    background-size:  100% ;
+}
+::selection{
+    background-color: transparent;
+}
+.content{
+    margin: auto 0;
+    color: aliceblue;
+    width: 100%;
+    background-position: 0 -80px;
+}
+
+.column{
+    width: 100px ;
+    height: 600px;
+    margin-left: 10px;
+    display: flex;
+    flex-flow: column wrap;
+}
+h1{
+    margin: 0;
+}
+p{
+    display: inline-block;
+    margin: 0;
+}
+#navbar{
+    width: 100%;
+    bottom: 0;
+    height: 6%;
+    right: 0;
+    background-color:#303030;
+    position: fixed;
+    z-index: 1000;
+    padding: 0;
+}
+#navbar > div {
+    overflow: hidden;
+}
+.items-navbar{
+    padding: 0 13px;
+    fill: #fff;
+    padding-bottom: 7px;
+    width: auto;
+    transition: 0.15s;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding-top: 8px;
+}
+.items-navbar:hover{
+    background-color: #9797973f;
+    fill:rgb(0, 136, 255);
+}
+.items-navbar:hover::after{
+    opacity: 1;
+}
+.items-navbar svg , .items-navbar img{
+    display: inline-block;
+    margin: 0;
+    width: 24px;
+    height: 24px;
+}
+.search-box-navbar{
+    width: 220px;
+    border: 3px solid transparent;
+    transition: all .3s;
+    height: 38px;
+    background-color: #fff;
+    top: -7px;
+    margin: 0 5px;
+    position: relative;
+    display: inline-block;
+}
+.search-box:hover{
+    border: 3px solid #999;
+}
+.windows-items:hover{
+    background-color: #7bcaff1a;
+    border: 1px solid #0084ff79;
+}
+.windows-items{
+    width: 70px;
+    cursor: default;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    height: 100px;
+    padding: 3px 10px;
+    margin: 10px 0 0 10px;
+    border: solid 1px transparent;
+    transition: .1s;
+}
+.windows-items > img{
+    width: 50px;
+}
+.windows-items p {
+    margin: 0;
+    font-family: system-ui;
+    font-size: 14px;
+}
+.windows-items-margin{
+    margin: 25px 0 0 0 ;
+}
+.right-click-menu{
+    width: 217px;
+    visibility: hidden;
+    opacity: .5;
+    height: auto;
+    background-color: #f3f3f3;
+    position: absolute;
+    z-index: 1000;
+    top: 27px;
+    left: 0;
+    border: 1px solid #f5f5f5;
+    box-shadow: 6px 6px 11px -3px #000000a1;
+    padding: 5px;
+}
+.menu-items{
+    padding: 3px 0;
+    cursor: default;
+    font-family: system-ui;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.dont-active-menu{
+    color: #999;
+}
+.menu-items:hover{
+    background-color: #fff;
+}
+.dont-active-menu:hover{
+    background-color: transparent;
+}
+.menu-right{
+    width: 17%;
+    padding-left: 7px;
+    display: inline-block;
+}
+.menu-left{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+.menu-center{
+    width: 50%;
+    display: inline-block;
+}
+#showMenu{
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    position: relative;
+    color: #303030;
+    top: 0;
+    left: 50%;
+    width: fit-content;
+}
+.circle{
+    margin-left: 12px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #000;
+}
+.menu-items > .right-click-menu{
+    transition: .05s;
+    left: 227px;
+    top: 0;
+}
+
+.menu-items:hover > .right-click-menu {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    transition: .1s;
+}

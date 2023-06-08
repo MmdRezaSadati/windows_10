@@ -1,0 +1,20 @@
+#turnOnPage{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-flow: column;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+    background-color: #000;
+}
+
+#turnOnPage img{
+    animation: 2s infinite turnOn;
+    margin-bottom: 50px;
+    cursor: pointer;
+    padding: 10px;
+    filter: drop-shadow(0 0 10px #f00);
+}

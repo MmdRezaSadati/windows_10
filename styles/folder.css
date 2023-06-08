@@ -1,0 +1,298 @@
+.item{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    /* display: flex;
+    flex-flow: column; */
+    display: none;
+    transition: .3s;
+    color: #000;
+}
+.item.mini{
+    width : 60% !important;
+    height : 75% !important;
+    top : 10% !important;
+    right :20% !important;
+    left : 20% !important;
+    bottom : 20% !important;
+}
+.border-left{
+    border-left: 1px solid !important;
+}
+.border-right{
+    border-right: 1px solid !important;
+
+}
+.topOf-ThisPc{
+    height: 10%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.thisPc-top-Menu{
+    display: flex;
+    width: 200px;
+    align-items: center;
+}
+
+.thisPc-top-Menu li{
+    margin: 2px;
+    border: 1px solid transparent;
+    padding: 3px 5px;
+}
+
+.hover-effect{
+    border: 1px solid transparent;
+}
+.hover-effect:hover{
+    background-color: #7bcaff1a !important;
+    border: 1px solid #0084ff79 ;
+}
+.thisPc-top-Menu li img{
+    width: 20px;
+    filter: drop-shadow(0 0 1px #00000050);
+}
+.center-thisPc{
+    margin-top: 34px;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    transition: .1s;
+    overflow: hidden;
+    height: 0;
+    background-color: #f0f0f0; 
+}
+.top-center_thisPC{
+    border-bottom: 1px solid #cccccc80;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.checkbox-accardion:checked ~ .top-item_right .accardion{
+    background: url(../img/svg/bottom.svg) no-repeat !important;
+}
+.checkbox-accardion:checked ~ .item-accardion{
+    height: auto;
+}
+.center-thisPc-item{
+    display: flex;
+    flex-flow: column;
+    padding: 5px 10px;
+    justify-content: center;
+}
+.three-item-center{
+    display: flex;
+    width: 100%;
+    position: absolute;
+}
+
+.three-item-center > li{
+    background-color: #0099ff;
+    padding: 4px 8px;
+    margin-bottom: -2px;
+    border: 1px solid transparent;
+    color: #fff;
+}
+.three-item-center .checkbox-accardion:checked + label{
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc;
+}
+.three-item-center > label{
+    background-color: transparent;
+    margin: 1px;
+    border: 1px solid transparent;
+    padding: 4px 8px;
+}
+.three-item-center > label:hover{
+    border: 1px solid #ddd;
+}
+.center-thisPc-item:first-child{
+    border-right: 1px solid #80808080;
+}
+.center-thisPc-item:last-child{
+    border-left: 1px solid #80808080;
+}
+.center-thisPc-item img{
+    width: 40px;
+    filter: drop-shadow(0 0 1px #00000090);
+}
+.thisPc-setting{
+    gap: 20px;
+    display: flex;
+}
+.thisPc-setting div{
+    padding: 3px 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    flex-flow: column;
+    font-size: 14px;
+}
+.thisPc-content{
+    height: 89%;
+}
+
+.top-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 16%;
+}
+.center-thisPc_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 15%;
+}
+.center-thisPc_left img{
+    width: 20px;
+    padding: 2px 4px;
+}
+
+.center-thisPc_center{
+    background:url(../img/windows-icons/imageres_109.ico) no-repeat;
+    background-size: 30px;
+    width: 100%;
+    display: flex;
+    margin: 0 5px;
+    border: 1px solid #cccccc80;
+}
+
+.center-thisPc_center img{
+    width: 20px;
+    cursor: pointer;
+    padding: 2px 4px;
+}
+.center-thisPc_center input ,.center-thisPc_right input , .search-input-item6 input{
+    padding: 5px 40px;
+    font-size: 16px;
+}
+
+.center-thisPc_right{
+    background:url(../img/chrome/Search-Icon.svg) no-repeat;
+    background-size: 30px;
+    width: 30%;
+    display: flex;
+    margin: 0 5px;
+    border: 1px solid #cccccc80;
+}
+.bottom-content{
+    display: flex;
+    height: 83%;
+}
+
+.left-ThisPc{
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 20%;
+    border-right: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+.thisPc-left-menu img{
+    width: 24px;
+    filter: drop-shadow(0 0 3px #00000080);
+    padding: 0 15px;
+}
+.left-ThisPc label{
+    display: flex;
+    align-items: center;
+}
+.thisPc-left-menu li{
+    display: flex;
+    width: 130px;
+    margin: 10px 0;
+    align-items: center;
+}
+.thisPc-left-menu>div{
+    padding-left: 50px;
+}
+.thisPc-left-menu .item-accardion{
+    height: 0;
+    transition: .1s;
+    overflow: hidden;
+}
+.right-ThisPc{
+    width: 80%;
+    padding-left: 30px;
+    display: flex;
+    flex-flow: column;
+    justify-content: right;
+}
+.folders , .Drives{
+    color: #0003ff;
+}
+
+.folders label , .Drives label{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+}
+.folders span , .Drives span{
+    width: 100%;
+    height: 1px;
+    background: #0003ff;
+}
+.folders p , .Drives p{
+    margin: 0 10px;
+    white-space: nowrap;
+}
+.folders-section{
+    padding-left: 50px;
+    width: 87% !important;
+}
+.folder{
+    float: left;
+    display: flex;
+    align-items: flex-start;
+    color: #000;
+    width: 200px;
+    height: 55px;
+    margin: 5px 10px;
+}
+
+.folder img{
+    filter: drop-shadow(0 0 3px #00000080);
+    padding: 0 15px;
+    width: 55px;
+}
+.Drives-size{
+    margin-top: 10px;
+    width:160%;
+    /* overflow: hidden;  */
+    border: 1px solid #444;
+    height: 15px; 
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    position: relative;
+}
+.Drives-size span{
+    width: 60%;
+    height: 100%;
+    background-color: #00aeff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Drives-size p{
+    z-index: 10;
+    margin-top: -3px;
+}
+.search-input-item6{
+    background:url(../img/windows-icons/Desktop.ico) no-repeat;
+    background-size: 30px;
+    width: 100%;
+    display: flex;
+    margin: 0 5px;
+    border: 1px solid #cccccc80;
+}

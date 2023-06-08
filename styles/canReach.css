@@ -1,0 +1,29 @@
+#cantReach{
+    display: none;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cantReach-content{
+    width: 350px;
+    white-space: nowrap;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+.cantReach-content span{
+    margin: 15px 0;
+    font-size: 26px;
+    font-weight: 600;
+}
+#cantReachAddress{
+    font-size: 16px;
+}
+#blue-section-cantReach{
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(26, 115, 232);
+}

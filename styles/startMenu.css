@@ -1,0 +1,52 @@
+.start-menu{
+    width: 0px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    height: 0;
+    transition: .15s;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    opacity: 0;
+    background-color: #303030fa;
+    /* border-radius: 12px 12px 0 0; */
+    box-shadow: -4px 4px 10px 1px #00000067;
+    height: 400px ;
+    padding: 10px 20px;
+}
+.start-menu-right{
+    position: relative;
+}
+.shutDownButtom{
+    position: absolute;
+    bottom: 20px;
+}
+#showStartMenu{
+    display: none;
+}
+#showStartMenu:checked ~ .start-menu{
+    opacity: 1;
+    width: 200px;
+}
+
+#showStartMenu:checked ~ label .windows-icon{
+    background-color: #9797973f;
+    fill: rgb(0, 136, 255);
+}
+.start-menu-item{
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    cursor: default;
+    padding: 4px 8px;
+    margin: 10px 0;
+    gap: 5px;
+    background: transparent;
+    transition: .3s;
+    color: #fff;
+}
+
+.start-menu-item:hover{
+    background-color: #ffffff20;
+}

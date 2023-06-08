@@ -1,0 +1,44 @@
+
+.DisplaySetting{
+    color: #313131;
+    background-color: transparent;
+    font-family: system-ui;
+}
+.DisplaySetting>div{
+    display: flex;
+}
+.list-display-setting{
+    width: 26%;
+    position: relative;
+    background-color: #ffffffa0;
+}
+.display-setting-section{
+    width: 84%;
+    background-color: #fff;
+}
+.settings{
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    flex-flow: column;
+    width: 65%;
+}
+.choose-windows-bg{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 25px 0;
+}
+.choose-windows-bg img{
+    width: 20%;
+    margin: 5px;
+}
+.choose-theme > div{
+    margin: 10px 0;
+}
+.windows-fill{
+    display: flex;
+    align-items: center;
+}
+.help-section{
+    width: 35%;
+}
